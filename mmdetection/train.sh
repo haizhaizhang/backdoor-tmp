@@ -1,0 +1,1 @@
+nohup bash tools/dist_train.sh configs/conditional_detr/base.py  8 >120500.out 2>&1 &

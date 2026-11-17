@@ -1,0 +1,2139 @@
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/launch.py:180: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+INFO:albumentations.check_version:A new version of Albumentations is available: 2.0.8 (you have 1.4.8). Upgrade using: pip install --upgrade albumentations
+INFO:albumentations.check_version:A new version of Albumentations is available: 2.0.8 (you have 1.4.8). Upgrade using: pip install --upgrade albumentations
+INFO:albumentations.check_version:A new version of Albumentations is available: 2.0.8 (you have 1.4.8). Upgrade using: pip install --upgrade albumentations
+INFO:albumentations.check_version:A new version of Albumentations is available: 2.0.8 (you have 1.4.8). Upgrade using: pip install --upgrade albumentations
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/mmengine/utils/dl_utils/setup_env.py:56: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/mmengine/utils/dl_utils/setup_env.py:56: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/mmengine/utils/dl_utils/setup_env.py:56: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/mmengine/utils/dl_utils/setup_env.py:56: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  warnings.warn(
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 0
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 2
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 3
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 1
+INFO:torch.distributed.distributed_c10d:Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+INFO:torch.distributed.distributed_c10d:Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+INFO:torch.distributed.distributed_c10d:Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+INFO:torch.distributed.distributed_c10d:Rank 3: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+07/26 08:59:08 - mmengine - WARNING - Failed to search registry with scope "mmyolo" in the "log_processor" registry tree. As a workaround, the current "log_processor" registry in "mmengine" is used to build instance. This may cause unexpected failure when running the built modules. Please check whether "mmyolo" is a correct scope, or whether the registry is initialized.
+07/26 08:59:09 - mmengine - INFO - 
+------------------------------------------------------------
+System environment:
+    sys.platform: linux
+    Python: 3.9.19 (main, May  6 2024, 19:43:03) [GCC 11.2.0]
+    CUDA available: True
+    MUSA available: False
+    numpy_random_seed: 467054549
+    GPU 0,1,2,3: Quadro RTX 6000
+    CUDA_HOME: /usr/local/cuda
+    NVCC: Cuda compilation tools, release 12.1, V12.1.105
+    GCC: gcc (GCC) 8.3.1 20190507 (Red Hat 8.3.1-4)
+    PyTorch: 1.13.0+cu117
+    PyTorch compiling details: PyTorch built with:
+  - GCC 9.3
+  - C++ Version: 201402
+  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v2.6.0 (Git Hash 52b5f107dd9cf10910aaa19cb47f3abf9b349815)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - LAPACK is enabled (usually provided by MKL)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - CUDA Runtime 11.7
+  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86
+  - CuDNN 8.5
+  - Magma 2.6.1
+  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=11.7, CUDNN_VERSION=8.5.0, CXX_COMPILER=/opt/rh/devtoolset-9/root/usr/bin/c++, CXX_FLAGS= -fabi-version=11 -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_KINETO -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -DEDGE_PROFILER_USE_KINETO -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wunused-local-typedefs -Wno-unused-parameter -Wno-unused-function -Wno-unused-result -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Werror=cast-function-type -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=1.13.0, USE_CUDA=ON, USE_CUDNN=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, 
+
+    TorchVision: 0.14.0+cu117
+    OpenCV: 4.10.0
+    MMEngine: 0.10.4
+
+Runtime environment:
+    cudnn_benchmark: True
+    mp_cfg: {'mp_start_method': 'fork', 'opencv_num_threads': 0}
+    dist_cfg: {'backend': 'nccl'}
+    seed: 467054549
+    Distributed launcher: pytorch
+    Distributed training: True
+    GPU number: 4
+------------------------------------------------------------
+
+07/26 08:59:11 - mmengine - INFO - Config:
+CLASSES = (
+    'aeroplane',
+    'bicycle',
+    'bird',
+    'boat',
+    'bottle',
+    'bus',
+    'car',
+    'cat',
+    'chair',
+    'cow',
+    'diningtable',
+    'dog',
+    'horse',
+    'motorbike',
+    'person',
+    'pottedplant',
+    'sheep',
+    'sofa',
+    'train',
+    'tvmonitor',
+)
+_backend_args = None
+_multiscale_resize_transforms = [
+    dict(
+        transforms=[
+            dict(scale=(
+                640,
+                640,
+            ), type='YOLOv5KeepRatioResize'),
+            dict(
+                allow_scale_up=False,
+                pad_val=dict(img=114),
+                scale=(
+                    640,
+                    640,
+                ),
+                type='LetterResize'),
+        ],
+        type='Compose'),
+    dict(
+        transforms=[
+            dict(scale=(
+                416,
+                416,
+            ), type='YOLOv5KeepRatioResize'),
+            dict(
+                allow_scale_up=False,
+                pad_val=dict(img=114),
+                scale=(
+                    416,
+                    416,
+                ),
+                type='LetterResize'),
+        ],
+        type='Compose'),
+    dict(
+        transforms=[
+            dict(scale=(
+                640,
+                640,
+            ), type='YOLOv5KeepRatioResize'),
+            dict(
+                allow_scale_up=False,
+                pad_val=dict(img=114),
+                scale=(
+                    640,
+                    640,
+                ),
+                type='LetterResize'),
+        ],
+        type='Compose'),
+]
+affine_scale = 0.5
+albu_train_transforms = [
+    dict(p=0.01, type='Blur'),
+    dict(p=0.01, type='MedianBlur'),
+    dict(p=0.01, type='ToGray'),
+    dict(p=0.01, type='CLAHE'),
+]
+anchors = [
+    [
+        (
+            26,
+            44,
+        ),
+        (
+            67,
+            57,
+        ),
+        (
+            61,
+            130,
+        ),
+    ],
+    [
+        (
+            121,
+            118,
+        ),
+        (
+            120,
+            239,
+        ),
+        (
+            206,
+            182,
+        ),
+    ],
+    [
+        (
+            376,
+            161,
+        ),
+        (
+            234,
+            324,
+        ),
+        (
+            428,
+            322,
+        ),
+    ],
+]
+backend_args = None
+base_lr = 0.01
+batch_shapes_cfg = dict(
+    batch_size=1,
+    extra_pad_ratio=0.5,
+    img_size=640,
+    size_divisor=32,
+    type='BatchShapePolicy')
+custom_hooks = [
+    dict(
+        ema_type='ExpMomentumEMA',
+        momentum=0.0001,
+        priority=49,
+        strict_load=False,
+        type='EMAHook',
+        update_buffers=True),
+]
+data_root = '/homes/55/jindong/backdoor/data/VOCdevkit/'
+dataset_type = 'YOLOv5CocoDataset'
+deepen_factor = 0.33
+default_hooks = dict(
+    checkpoint=dict(interval=5, save_best='auto', type='CheckpointHook'),
+    logger=dict(interval=50, type='LoggerHook'),
+    param_scheduler=dict(type='ParamSchedulerHook'),
+    sampler_seed=dict(type='DistSamplerSeedHook'),
+    timer=dict(type='IterTimerHook'),
+    visualization=dict(type='mmdet.DetVisualizationHook'))
+default_scope = 'mmyolo'
+env_cfg = dict(
+    cudnn_benchmark=True,
+    dist_cfg=dict(backend='nccl'),
+    mp_cfg=dict(mp_start_method='fork', opencv_num_threads=0))
+img_scale = (
+    640,
+    640,
+)
+img_scales = [
+    (
+        640,
+        640,
+    ),
+    (
+        320,
+        320,
+    ),
+    (
+        960,
+        960,
+    ),
+]
+launcher = 'pytorch'
+load_from = '/homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth'
+log_level = 'INFO'
+log_processor = dict(by_epoch=True, type='LogProcessor', window_size=50)
+loss_bbox_weight = 0.05
+loss_cls_weight = 0.5
+loss_obj_weight = 1.0
+lr_factor = 0.01
+max_epochs = 50
+max_keep_ckpts = 3
+model = dict(
+    backbone=dict(
+        act_cfg=dict(inplace=True, type='SiLU'),
+        deepen_factor=0.33,
+        norm_cfg=dict(eps=0.001, momentum=0.03, type='BN'),
+        type='YOLOv5CSPDarknet',
+        widen_factor=0.5),
+    bbox_head=dict(
+        head_module=dict(
+            featmap_strides=[
+                8,
+                16,
+                32,
+            ],
+            in_channels=[
+                256,
+                512,
+                1024,
+            ],
+            num_base_priors=3,
+            num_classes=20,
+            type='YOLOv5HeadModule',
+            widen_factor=0.5),
+        loss_bbox=dict(
+            bbox_format='xywh',
+            eps=1e-07,
+            iou_mode='ciou',
+            loss_weight=0.02,
+            reduction='mean',
+            return_iou=True,
+            type='IoULoss'),
+        loss_cls=dict(
+            class_weight=0.5,
+            loss_weight=0.054095,
+            reduction='mean',
+            type='mmdet.CrossEntropyLoss',
+            use_sigmoid=True),
+        loss_obj=dict(
+            class_weight=0.67198,
+            loss_weight=0.51728,
+            reduction='mean',
+            type='mmdet.CrossEntropyLoss',
+            use_sigmoid=True),
+        obj_level_weights=[
+            4.0,
+            1.0,
+            0.4,
+        ],
+        prior_generator=dict(
+            base_sizes=[
+                [
+                    (
+                        26,
+                        44,
+                    ),
+                    (
+                        67,
+                        57,
+                    ),
+                    (
+                        61,
+                        130,
+                    ),
+                ],
+                [
+                    (
+                        121,
+                        118,
+                    ),
+                    (
+                        120,
+                        239,
+                    ),
+                    (
+                        206,
+                        182,
+                    ),
+                ],
+                [
+                    (
+                        376,
+                        161,
+                    ),
+                    (
+                        234,
+                        324,
+                    ),
+                    (
+                        428,
+                        322,
+                    ),
+                ],
+            ],
+            strides=[
+                8,
+                16,
+                32,
+            ],
+            type='mmdet.YOLOAnchorGenerator'),
+        prior_match_thr=3.3744,
+        type='YOLOv5Head'),
+    data_preprocessor=dict(
+        bgr_to_rgb=True,
+        mean=[
+            0.0,
+            0.0,
+            0.0,
+        ],
+        std=[
+            255.0,
+            255.0,
+            255.0,
+        ],
+        type='mmdet.DetDataPreprocessor'),
+    neck=dict(
+        act_cfg=dict(inplace=True, type='SiLU'),
+        deepen_factor=0.33,
+        in_channels=[
+            256,
+            512,
+            1024,
+        ],
+        norm_cfg=dict(eps=0.001, momentum=0.03, type='BN'),
+        num_csp_blocks=3,
+        out_channels=[
+            256,
+            512,
+            1024,
+        ],
+        type='YOLOv5PAFPN',
+        widen_factor=0.5),
+    test_cfg=dict(
+        max_per_img=300,
+        multi_label=True,
+        nms=dict(iou_threshold=0.6, type='nms'),
+        nms_pre=30000,
+        score_thr=0.001),
+    type='YOLODetector')
+model_test_cfg = dict(
+    max_per_img=300,
+    multi_label=True,
+    nms=dict(iou_threshold=0.6, type='nms'),
+    nms_pre=30000,
+    score_thr=0.001)
+norm_cfg = dict(eps=0.001, momentum=0.03, type='BN')
+num_classes = 20
+num_det_layers = 3
+obj_level_weights = [
+    4.0,
+    1.0,
+    0.4,
+]
+optim_wrapper = dict(
+    constructor='YOLOv5OptimizerConstructor',
+    optimizer=dict(
+        batch_size_per_gpu=32,
+        lr=0.02,
+        momentum=0.74832,
+        nesterov=True,
+        type='SGD',
+        weight_decay=0.00025),
+    type='OptimWrapper')
+param_scheduler = None
+persistent_workers = True
+pre_transform = [
+    dict(backend_args=None, type='LoadImageFromFile'),
+    dict(type='LoadAnnotations', with_bbox=True),
+]
+prior_match_thr = 4.0
+randchoice_mosaic_pipeline = dict(
+    prob=[
+        0.85834,
+        0.14166,
+    ],
+    transforms=[
+        [
+            dict(
+                img_scale=(
+                    640,
+                    640,
+                ),
+                pad_val=114.0,
+                pre_transform=[
+                    dict(backend_args=None, type='LoadImageFromFile'),
+                    dict(type='LoadAnnotations', with_bbox=True),
+                ],
+                type='Mosaic'),
+            dict(
+                border=(
+                    -320,
+                    -320,
+                ),
+                border_val=(
+                    114,
+                    114,
+                    114,
+                ),
+                max_rotate_degree=0.0,
+                max_shear_degree=0.0,
+                max_translate_ratio=0.04591,
+                scaling_ratio_range=(
+                    0.5,
+                    1.5,
+                ),
+                type='YOLOv5RandomAffine'),
+            dict(
+                pre_transform=[
+                    dict(backend_args=None, type='LoadImageFromFile'),
+                    dict(type='LoadAnnotations', with_bbox=True),
+                    dict(
+                        img_scale=(
+                            640,
+                            640,
+                        ),
+                        pad_val=114.0,
+                        pre_transform=[
+                            dict(backend_args=None, type='LoadImageFromFile'),
+                            dict(type='LoadAnnotations', with_bbox=True),
+                        ],
+                        type='Mosaic'),
+                    dict(
+                        border=(
+                            -320,
+                            -320,
+                        ),
+                        border_val=(
+                            114,
+                            114,
+                            114,
+                        ),
+                        max_rotate_degree=0.0,
+                        max_shear_degree=0.0,
+                        max_translate_ratio=0.04591,
+                        scaling_ratio_range=(
+                            0.5,
+                            1.5,
+                        ),
+                        type='YOLOv5RandomAffine'),
+                ],
+                prob=0.04266,
+                type='YOLOv5MixUp'),
+        ],
+        [
+            dict(
+                border=(
+                    0,
+                    0,
+                ),
+                border_val=(
+                    114,
+                    114,
+                    114,
+                ),
+                max_rotate_degree=0.0,
+                max_shear_degree=0.0,
+                max_translate_ratio=0.04591,
+                scaling_ratio_range=(
+                    0.5,
+                    1.5,
+                ),
+                type='YOLOv5RandomAffine'),
+            dict(
+                allow_scale_up=True,
+                pad_val=dict(img=114),
+                scale=(
+                    640,
+                    640,
+                ),
+                type='LetterResize'),
+        ],
+    ],
+    type='RandomChoice')
+resume = False
+save_checkpoint_intervals = 5
+strides = [
+    8,
+    16,
+    32,
+]
+test_cfg = dict(type='TestLoop')
+test_dataloader = dict(
+    batch_size=1,
+    dataset=dict(
+        ann_file='annotations/test_07.json',
+        batch_shapes_cfg=dict(
+            batch_size=1,
+            extra_pad_ratio=0.5,
+            img_size=640,
+            size_divisor=32,
+            type='BatchShapePolicy'),
+        data_prefix=dict(img='test/'),
+        data_root='/homes/55/jindong/backdoor/data/VOCdevkit/',
+        metainfo=dict(
+            classes=(
+                'aeroplane',
+                'bicycle',
+                'bird',
+                'boat',
+                'bottle',
+                'bus',
+                'car',
+                'cat',
+                'chair',
+                'cow',
+                'diningtable',
+                'dog',
+                'horse',
+                'motorbike',
+                'person',
+                'pottedplant',
+                'sheep',
+                'sofa',
+                'train',
+                'tvmonitor',
+            )),
+        pipeline=[
+            dict(backend_args=None, type='LoadImageFromFile'),
+            dict(scale=(
+                640,
+                640,
+            ), type='YOLOv5KeepRatioResize'),
+            dict(
+                allow_scale_up=False,
+                pad_val=dict(img=114),
+                scale=(
+                    640,
+                    640,
+                ),
+                type='LetterResize'),
+            dict(_scope_='mmdet', type='LoadAnnotations', with_bbox=True),
+            dict(
+                meta_keys=(
+                    'img_id',
+                    'img_path',
+                    'ori_shape',
+                    'img_shape',
+                    'scale_factor',
+                    'pad_param',
+                ),
+                type='mmdet.PackDetInputs'),
+        ],
+        test_mode=True,
+        type='YOLOv5CocoDataset'),
+    drop_last=False,
+    num_workers=2,
+    persistent_workers=True,
+    pin_memory=True,
+    sampler=dict(shuffle=False, type='DefaultSampler'))
+test_evaluator = dict(
+    ann_file=
+    '/homes/55/jindong/backdoor/data/VOCdevkit/annotations/test_07.json',
+    metric='bbox',
+    proposal_nums=(
+        100,
+        1,
+        10,
+    ),
+    type='mmdet.CocoMetric')
+test_pipeline = [
+    dict(backend_args=None, type='LoadImageFromFile'),
+    dict(scale=(
+        640,
+        640,
+    ), type='YOLOv5KeepRatioResize'),
+    dict(
+        allow_scale_up=False,
+        pad_val=dict(img=114),
+        scale=(
+            640,
+            640,
+        ),
+        type='LetterResize'),
+    dict(_scope_='mmdet', type='LoadAnnotations', with_bbox=True),
+    dict(
+        meta_keys=(
+            'img_id',
+            'img_path',
+            'ori_shape',
+            'img_shape',
+            'scale_factor',
+            'pad_param',
+        ),
+        type='mmdet.PackDetInputs'),
+]
+train_ann_file = 'annotations/car_split_train.json'
+train_batch_size_per_gpu = 32
+train_cfg = dict(max_epochs=50, type='EpochBasedTrainLoop', val_interval=5)
+train_data_prefix = 'trainval/'
+train_dataloader = dict(
+    batch_size=32,
+    dataset=dict(
+        ann_file='annotations/car_split_train.json',
+        data_prefix=dict(img='trainval/'),
+        data_root='/homes/55/jindong/backdoor/data/VOCdevkit/',
+        filter_cfg=dict(filter_empty_gt=False, min_size=32),
+        metainfo=dict(
+            classes=(
+                'aeroplane',
+                'bicycle',
+                'bird',
+                'boat',
+                'bottle',
+                'bus',
+                'car',
+                'cat',
+                'chair',
+                'cow',
+                'diningtable',
+                'dog',
+                'horse',
+                'motorbike',
+                'person',
+                'pottedplant',
+                'sheep',
+                'sofa',
+                'train',
+                'tvmonitor',
+            )),
+        pipeline=[
+            dict(backend_args=None, type='LoadImageFromFile'),
+            dict(type='LoadAnnotations', with_bbox=True),
+            dict(
+                prob=[
+                    0.85834,
+                    0.14166,
+                ],
+                transforms=[
+                    [
+                        dict(
+                            img_scale=(
+                                640,
+                                640,
+                            ),
+                            pad_val=114.0,
+                            pre_transform=[
+                                dict(
+                                    backend_args=None,
+                                    type='LoadImageFromFile'),
+                                dict(type='LoadAnnotations', with_bbox=True),
+                            ],
+                            type='Mosaic'),
+                        dict(
+                            border=(
+                                -320,
+                                -320,
+                            ),
+                            border_val=(
+                                114,
+                                114,
+                                114,
+                            ),
+                            max_rotate_degree=0.0,
+                            max_shear_degree=0.0,
+                            max_translate_ratio=0.04591,
+                            scaling_ratio_range=(
+                                0.5,
+                                1.5,
+                            ),
+                            type='YOLOv5RandomAffine'),
+                        dict(
+                            pre_transform=[
+                                dict(
+                                    backend_args=None,
+                                    type='LoadImageFromFile'),
+                                dict(type='LoadAnnotations', with_bbox=True),
+                                dict(
+                                    img_scale=(
+                                        640,
+                                        640,
+                                    ),
+                                    pad_val=114.0,
+                                    pre_transform=[
+                                        dict(
+                                            backend_args=None,
+                                            type='LoadImageFromFile'),
+                                        dict(
+                                            type='LoadAnnotations',
+                                            with_bbox=True),
+                                    ],
+                                    type='Mosaic'),
+                                dict(
+                                    border=(
+                                        -320,
+                                        -320,
+                                    ),
+                                    border_val=(
+                                        114,
+                                        114,
+                                        114,
+                                    ),
+                                    max_rotate_degree=0.0,
+                                    max_shear_degree=0.0,
+                                    max_translate_ratio=0.04591,
+                                    scaling_ratio_range=(
+                                        0.5,
+                                        1.5,
+                                    ),
+                                    type='YOLOv5RandomAffine'),
+                            ],
+                            prob=0.04266,
+                            type='YOLOv5MixUp'),
+                    ],
+                    [
+                        dict(
+                            border=(
+                                0,
+                                0,
+                            ),
+                            border_val=(
+                                114,
+                                114,
+                                114,
+                            ),
+                            max_rotate_degree=0.0,
+                            max_shear_degree=0.0,
+                            max_translate_ratio=0.04591,
+                            scaling_ratio_range=(
+                                0.5,
+                                1.5,
+                            ),
+                            type='YOLOv5RandomAffine'),
+                        dict(
+                            allow_scale_up=True,
+                            pad_val=dict(img=114),
+                            scale=(
+                                640,
+                                640,
+                            ),
+                            type='LetterResize'),
+                    ],
+                ],
+                type='RandomChoice'),
+            dict(
+                bbox_params=dict(
+                    format='pascal_voc',
+                    label_fields=[
+                        'gt_bboxes_labels',
+                        'gt_ignore_flags',
+                    ],
+                    type='BboxParams'),
+                keymap=dict(gt_bboxes='bboxes', img='image'),
+                transforms=[
+                    dict(p=0.01, type='Blur'),
+                    dict(p=0.01, type='MedianBlur'),
+                    dict(p=0.01, type='ToGray'),
+                    dict(p=0.01, type='CLAHE'),
+                ],
+                type='mmdet.Albu'),
+            dict(
+                hue_delta=0.01041,
+                saturation_delta=0.54703,
+                type='YOLOv5HSVRandomAug',
+                value_delta=0.27739),
+            dict(prob=0.5, type='mmdet.RandomFlip'),
+            dict(
+                meta_keys=(
+                    'img_id',
+                    'img_path',
+                    'ori_shape',
+                    'img_shape',
+                    'flip',
+                    'flip_direction',
+                ),
+                type='mmdet.PackDetInputs'),
+        ],
+        type='YOLOv5CocoDataset'),
+    num_workers=8,
+    persistent_workers=True,
+    pin_memory=True,
+    sampler=dict(shuffle=True, type='DefaultSampler'))
+train_num_workers = 8
+train_pipeline = [
+    dict(backend_args=None, type='LoadImageFromFile'),
+    dict(type='LoadAnnotations', with_bbox=True),
+    dict(
+        prob=[
+            0.85834,
+            0.14166,
+        ],
+        transforms=[
+            [
+                dict(
+                    img_scale=(
+                        640,
+                        640,
+                    ),
+                    pad_val=114.0,
+                    pre_transform=[
+                        dict(backend_args=None, type='LoadImageFromFile'),
+                        dict(type='LoadAnnotations', with_bbox=True),
+                    ],
+                    type='Mosaic'),
+                dict(
+                    border=(
+                        -320,
+                        -320,
+                    ),
+                    border_val=(
+                        114,
+                        114,
+                        114,
+                    ),
+                    max_rotate_degree=0.0,
+                    max_shear_degree=0.0,
+                    max_translate_ratio=0.04591,
+                    scaling_ratio_range=(
+                        0.5,
+                        1.5,
+                    ),
+                    type='YOLOv5RandomAffine'),
+                dict(
+                    pre_transform=[
+                        dict(backend_args=None, type='LoadImageFromFile'),
+                        dict(type='LoadAnnotations', with_bbox=True),
+                        dict(
+                            img_scale=(
+                                640,
+                                640,
+                            ),
+                            pad_val=114.0,
+                            pre_transform=[
+                                dict(
+                                    backend_args=None,
+                                    type='LoadImageFromFile'),
+                                dict(type='LoadAnnotations', with_bbox=True),
+                            ],
+                            type='Mosaic'),
+                        dict(
+                            border=(
+                                -320,
+                                -320,
+                            ),
+                            border_val=(
+                                114,
+                                114,
+                                114,
+                            ),
+                            max_rotate_degree=0.0,
+                            max_shear_degree=0.0,
+                            max_translate_ratio=0.04591,
+                            scaling_ratio_range=(
+                                0.5,
+                                1.5,
+                            ),
+                            type='YOLOv5RandomAffine'),
+                    ],
+                    prob=0.04266,
+                    type='YOLOv5MixUp'),
+            ],
+            [
+                dict(
+                    border=(
+                        0,
+                        0,
+                    ),
+                    border_val=(
+                        114,
+                        114,
+                        114,
+                    ),
+                    max_rotate_degree=0.0,
+                    max_shear_degree=0.0,
+                    max_translate_ratio=0.04591,
+                    scaling_ratio_range=(
+                        0.5,
+                        1.5,
+                    ),
+                    type='YOLOv5RandomAffine'),
+                dict(
+                    allow_scale_up=True,
+                    pad_val=dict(img=114),
+                    scale=(
+                        640,
+                        640,
+                    ),
+                    type='LetterResize'),
+            ],
+        ],
+        type='RandomChoice'),
+    dict(
+        bbox_params=dict(
+            format='pascal_voc',
+            label_fields=[
+                'gt_bboxes_labels',
+                'gt_ignore_flags',
+            ],
+            type='BboxParams'),
+        keymap=dict(gt_bboxes='bboxes', img='image'),
+        transforms=[
+            dict(p=0.01, type='Blur'),
+            dict(p=0.01, type='MedianBlur'),
+            dict(p=0.01, type='ToGray'),
+            dict(p=0.01, type='CLAHE'),
+        ],
+        type='mmdet.Albu'),
+    dict(
+        hue_delta=0.01041,
+        saturation_delta=0.54703,
+        type='YOLOv5HSVRandomAug',
+        value_delta=0.27739),
+    dict(prob=0.5, type='mmdet.RandomFlip'),
+    dict(
+        meta_keys=(
+            'img_id',
+            'img_path',
+            'ori_shape',
+            'img_shape',
+            'flip',
+            'flip_direction',
+        ),
+        type='mmdet.PackDetInputs'),
+]
+tta_img_scales = [
+    (
+        640,
+        640,
+    ),
+    (
+        416,
+        416,
+    ),
+    (
+        640,
+        640,
+    ),
+]
+tta_model = dict(
+    tta_cfg=dict(max_per_img=300, nms=dict(iou_threshold=0.65, type='nms')),
+    type='mmdet.DetTTAModel')
+tta_pipeline = [
+    dict(backend_args=None, type='LoadImageFromFile'),
+    dict(
+        transforms=[
+            [
+                dict(
+                    transforms=[
+                        dict(scale=(
+                            640,
+                            640,
+                        ), type='YOLOv5KeepRatioResize'),
+                        dict(
+                            allow_scale_up=False,
+                            pad_val=dict(img=114),
+                            scale=(
+                                640,
+                                640,
+                            ),
+                            type='LetterResize'),
+                    ],
+                    type='Compose'),
+                dict(
+                    transforms=[
+                        dict(scale=(
+                            416,
+                            416,
+                        ), type='YOLOv5KeepRatioResize'),
+                        dict(
+                            allow_scale_up=False,
+                            pad_val=dict(img=114),
+                            scale=(
+                                416,
+                                416,
+                            ),
+                            type='LetterResize'),
+                    ],
+                    type='Compose'),
+                dict(
+                    transforms=[
+                        dict(scale=(
+                            640,
+                            640,
+                        ), type='YOLOv5KeepRatioResize'),
+                        dict(
+                            allow_scale_up=False,
+                            pad_val=dict(img=114),
+                            scale=(
+                                640,
+                                640,
+                            ),
+                            type='LetterResize'),
+                    ],
+                    type='Compose'),
+            ],
+            [
+                dict(prob=1.0, type='mmdet.RandomFlip'),
+                dict(prob=0.0, type='mmdet.RandomFlip'),
+            ],
+            [
+                dict(type='mmdet.LoadAnnotations', with_bbox=True),
+            ],
+            [
+                dict(
+                    meta_keys=(
+                        'img_id',
+                        'img_path',
+                        'ori_shape',
+                        'img_shape',
+                        'scale_factor',
+                        'pad_param',
+                        'flip',
+                        'flip_direction',
+                    ),
+                    type='mmdet.PackDetInputs'),
+            ],
+        ],
+        type='TestTimeAug'),
+]
+val_ann_file = 'annotations/test_07.json'
+val_batch_size_per_gpu = 1
+val_cfg = dict(type='ValLoop')
+val_data_prefix = 'test/'
+val_dataloader = dict(
+    batch_size=1,
+    dataset=dict(
+        ann_file='annotations/test_07.json',
+        batch_shapes_cfg=dict(
+            batch_size=1,
+            extra_pad_ratio=0.5,
+            img_size=640,
+            size_divisor=32,
+            type='BatchShapePolicy'),
+        data_prefix=dict(img='test/'),
+        data_root='/homes/55/jindong/backdoor/data/VOCdevkit/',
+        metainfo=dict(
+            classes=(
+                'aeroplane',
+                'bicycle',
+                'bird',
+                'boat',
+                'bottle',
+                'bus',
+                'car',
+                'cat',
+                'chair',
+                'cow',
+                'diningtable',
+                'dog',
+                'horse',
+                'motorbike',
+                'person',
+                'pottedplant',
+                'sheep',
+                'sofa',
+                'train',
+                'tvmonitor',
+            )),
+        pipeline=[
+            dict(backend_args=None, type='LoadImageFromFile'),
+            dict(scale=(
+                640,
+                640,
+            ), type='YOLOv5KeepRatioResize'),
+            dict(
+                allow_scale_up=False,
+                pad_val=dict(img=114),
+                scale=(
+                    640,
+                    640,
+                ),
+                type='LetterResize'),
+            dict(_scope_='mmdet', type='LoadAnnotations', with_bbox=True),
+            dict(
+                meta_keys=(
+                    'img_id',
+                    'img_path',
+                    'ori_shape',
+                    'img_shape',
+                    'scale_factor',
+                    'pad_param',
+                ),
+                type='mmdet.PackDetInputs'),
+        ],
+        test_mode=True,
+        type='YOLOv5CocoDataset'),
+    drop_last=False,
+    num_workers=2,
+    persistent_workers=True,
+    pin_memory=True,
+    sampler=dict(shuffle=False, type='DefaultSampler'))
+val_evaluator = dict(
+    ann_file=
+    '/homes/55/jindong/backdoor/data/VOCdevkit/annotations/test_07.json',
+    metric='bbox',
+    proposal_nums=(
+        100,
+        1,
+        10,
+    ),
+    type='mmdet.CocoMetric')
+val_num_workers = 2
+vis_backends = [
+    dict(type='LocalVisBackend'),
+]
+visualizer = dict(
+    name='visualizer',
+    type='mmdet.DetLocalVisualizer',
+    vis_backends=[
+        dict(type='LocalVisBackend'),
+    ])
+weight_decay = 0.0005
+widen_factor = 0.5
+with_mosiac_pipeline = [
+    dict(
+        img_scale=(
+            640,
+            640,
+        ),
+        pad_val=114.0,
+        pre_transform=[
+            dict(backend_args=None, type='LoadImageFromFile'),
+            dict(type='LoadAnnotations', with_bbox=True),
+        ],
+        type='Mosaic'),
+    dict(
+        border=(
+            -320,
+            -320,
+        ),
+        border_val=(
+            114,
+            114,
+            114,
+        ),
+        max_rotate_degree=0.0,
+        max_shear_degree=0.0,
+        max_translate_ratio=0.04591,
+        scaling_ratio_range=(
+            0.5,
+            1.5,
+        ),
+        type='YOLOv5RandomAffine'),
+    dict(
+        pre_transform=[
+            dict(backend_args=None, type='LoadImageFromFile'),
+            dict(type='LoadAnnotations', with_bbox=True),
+            dict(
+                img_scale=(
+                    640,
+                    640,
+                ),
+                pad_val=114.0,
+                pre_transform=[
+                    dict(backend_args=None, type='LoadImageFromFile'),
+                    dict(type='LoadAnnotations', with_bbox=True),
+                ],
+                type='Mosaic'),
+            dict(
+                border=(
+                    -320,
+                    -320,
+                ),
+                border_val=(
+                    114,
+                    114,
+                    114,
+                ),
+                max_rotate_degree=0.0,
+                max_shear_degree=0.0,
+                max_translate_ratio=0.04591,
+                scaling_ratio_range=(
+                    0.5,
+                    1.5,
+                ),
+                type='YOLOv5RandomAffine'),
+        ],
+        prob=0.04266,
+        type='YOLOv5MixUp'),
+]
+without_mosaic_pipeline = [
+    dict(
+        border=(
+            0,
+            0,
+        ),
+        border_val=(
+            114,
+            114,
+            114,
+        ),
+        max_rotate_degree=0.0,
+        max_shear_degree=0.0,
+        max_translate_ratio=0.04591,
+        scaling_ratio_range=(
+            0.5,
+            1.5,
+        ),
+        type='YOLOv5RandomAffine'),
+    dict(
+        allow_scale_up=True,
+        pad_val=dict(img=114),
+        scale=(
+            640,
+            640,
+        ),
+        type='LetterResize'),
+]
+work_dir = '/homes/55/jindong/backdoor/work_dirs/v5/box/car_split_train'
+
+!!!Now, you've changed the prior_match_thr parameter to something other than 4.0. Please make sure that you have modified both the regression formula in bbox_coder and before loss_box computation, otherwise the accuracy may be degraded!!!
+!!!Now, you've changed the prior_match_thr parameter to something other than 4.0. Please make sure that you have modified both the regression formula in bbox_coder and before loss_box computation, otherwise the accuracy may be degraded!!!
+!!!Now, you've changed the prior_match_thr parameter to something other than 4.0. Please make sure that you have modified both the regression formula in bbox_coder and before loss_box computation, otherwise the accuracy may be degraded!!!
+!!!Now, you've changed the prior_match_thr parameter to something other than 4.0. Please make sure that you have modified both the regression formula in bbox_coder and before loss_box computation, otherwise the accuracy may be degraded!!!
+07/26 08:59:13 - mmengine - INFO - Using SyncBatchNorm()
+07/26 08:59:13 - mmengine - INFO - Hooks will be executed in the following order:
+before_run:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(49          ) EMAHook                            
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+after_load_checkpoint:
+(49          ) EMAHook                            
+ -------------------- 
+before_train:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(49          ) EMAHook                            
+(NORMAL      ) IterTimerHook                      
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+before_train_epoch:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+(NORMAL      ) DistSamplerSeedHook                
+ -------------------- 
+before_train_iter:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+after_train_iter:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(49          ) EMAHook                            
+(NORMAL      ) IterTimerHook                      
+(BELOW_NORMAL) LoggerHook                         
+(LOW         ) ParamSchedulerHook                 
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+after_train_epoch:
+(NORMAL      ) IterTimerHook                      
+(LOW         ) ParamSchedulerHook                 
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+before_val:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+before_val_epoch:
+(49          ) EMAHook                            
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+before_val_iter:
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+after_val_iter:
+(NORMAL      ) IterTimerHook                      
+(NORMAL      ) DetVisualizationHook               
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+after_val_epoch:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(49          ) EMAHook                            
+(NORMAL      ) IterTimerHook                      
+(BELOW_NORMAL) LoggerHook                         
+(LOW         ) ParamSchedulerHook                 
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+after_val:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+before_save_checkpoint:
+(49          ) EMAHook                            
+ -------------------- 
+after_train:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+before_test:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+before_test_epoch:
+(49          ) EMAHook                            
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+before_test_iter:
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+after_test_iter:
+(NORMAL      ) IterTimerHook                      
+(NORMAL      ) DetVisualizationHook               
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+after_test_epoch:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(49          ) EMAHook                            
+(NORMAL      ) IterTimerHook                      
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+after_test:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+after_run:
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/albumentations/core/composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/albumentations/core/composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/albumentations/core/composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+loading annotations into memory...
+loading annotations into memory...
+loading annotations into memory...
+Done (t=0.22s)
+creating index...
+Done (t=0.22s)
+creating index...
+index created!
+index created!
+Done (t=0.24s)
+creating index...
+index created!
+loading annotations into memory...
+loading annotations into memory...
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+Done (t=0.03s)
+creating index...
+index created!
+index created!
+Done (t=0.03s)
+creating index...
+index created!
+loading annotations into memory...
+loading annotations into memory...
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+Done (t=0.03s)
+creating index...
+Done (t=0.03s)
+creating index...
+index created!
+index created!
+index created!
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/albumentations/core/composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+loading annotations into memory...
+Done (t=0.21s)
+creating index...
+index created!
+07/26 08:59:15 - mmengine - INFO - Scaled weight_decay to 0.0005
+07/26 08:59:15 - mmengine - INFO - Optimizer groups: 60 .bias, 60 conv.weight, 57 other
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+Loads checkpoint by local backend from path: /homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth
+Loads checkpoint by local backend from path: /homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth
+Loads checkpoint by local backend from path: /homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth
+Loads checkpoint by local backend from path: /homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth
+The model and loaded state dict do not match exactly
+
+size mismatch for bbox_head.head_module.convs_pred.0.weight: copying a param with shape torch.Size([255, 128, 1, 1]) from checkpoint, the shape in current model is torch.Size([75, 128, 1, 1]).
+size mismatch for bbox_head.head_module.convs_pred.0.bias: copying a param with shape torch.Size([255]) from checkpoint, the shape in current model is torch.Size([75]).
+size mismatch for bbox_head.head_module.convs_pred.1.weight: copying a param with shape torch.Size([255, 256, 1, 1]) from checkpoint, the shape in current model is torch.Size([75, 256, 1, 1]).
+size mismatch for bbox_head.head_module.convs_pred.1.bias: copying a param with shape torch.Size([255]) from checkpoint, the shape in current model is torch.Size([75]).
+size mismatch for bbox_head.head_module.convs_pred.2.weight: copying a param with shape torch.Size([255, 512, 1, 1]) from checkpoint, the shape in current model is torch.Size([75, 512, 1, 1]).
+size mismatch for bbox_head.head_module.convs_pred.2.bias: copying a param with shape torch.Size([255]) from checkpoint, the shape in current model is torch.Size([75]).
+The model and loaded state dict do not match exactly
+
+size mismatch for bbox_head.head_module.convs_pred.0.weight: copying a param with shape torch.Size([255, 128, 1, 1]) from checkpoint, the shape in current model is torch.Size([75, 128, 1, 1]).
+size mismatch for bbox_head.head_module.convs_pred.0.bias: copying a param with shape torch.Size([255]) from checkpoint, the shape in current model is torch.Size([75]).
+size mismatch for bbox_head.head_module.convs_pred.1.weight: copying a param with shape torch.Size([255, 256, 1, 1]) from checkpoint, the shape in current model is torch.Size([75, 256, 1, 1]).
+size mismatch for bbox_head.head_module.convs_pred.1.bias: copying a param with shape torch.Size([255]) from checkpoint, the shape in current model is torch.Size([75]).
+size mismatch for bbox_head.head_module.convs_pred.2.weight: copying a param with shape torch.Size([255, 512, 1, 1]) from checkpoint, the shape in current model is torch.Size([75, 512, 1, 1]).
+size mismatch for bbox_head.head_module.convs_pred.2.bias: copying a param with shape torch.Size([255]) from checkpoint, the shape in current model is torch.Size([75]).
+07/26 08:59:18 - mmengine - INFO - Load checkpoint from /homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth
+07/26 08:59:18 - mmengine - WARNING - "FileClient" will be deprecated in future. Please use io functions in https://mmengine.readthedocs.io/en/latest/api/fileio.html#file-io
+07/26 08:59:18 - mmengine - WARNING - "HardDiskBackend" is the alias of "LocalBackend" and the former will be deprecated in future.
+07/26 08:59:18 - mmengine - INFO - Checkpoints will be saved to /homes/55/jindong/backdoor/work_dirs/v5/box/car_split_train.
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
+07/26 08:59:43 - mmengine - INFO - Epoch(train)  [1][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:54:38  time: 0.5083  data_time: 0.0425  memory: 11782  loss: 7.7201  loss_cls: 2.1392  loss_obj: 2.2984  loss_bbox: 3.2825
+07/26 09:00:01 - mmengine - INFO - Epoch(train)  [1][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:46:28  time: 0.3630  data_time: 0.0019  memory: 9751  loss: 6.3570  loss_cls: 1.6976  loss_obj: 2.1344  loss_bbox: 2.5250
+07/26 09:00:12 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:00:32 - mmengine - INFO - Epoch(train)  [2][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:43:24  time: 0.3863  data_time: 0.0202  memory: 9751  loss: 5.7102  loss_cls: 1.3416  loss_obj: 2.0939  loss_bbox: 2.2747
+07/26 09:00:50 - mmengine - INFO - Epoch(train)  [2][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:41:55  time: 0.3624  data_time: 0.0018  memory: 9748  loss: 5.4524  loss_cls: 1.1618  loss_obj: 2.0910  loss_bbox: 2.1996
+07/26 09:01:00 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:01:20 - mmengine - INFO - Epoch(train)  [3][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:40:46  time: 0.3987  data_time: 0.0189  memory: 9748  loss: 5.1846  loss_cls: 0.9953  loss_obj: 2.1210  loss_bbox: 2.0684
+07/26 09:01:38 - mmengine - INFO - Epoch(train)  [3][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:40:00  time: 0.3645  data_time: 0.0021  memory: 9748  loss: 5.0545  loss_cls: 0.9171  loss_obj: 2.1397  loss_bbox: 1.9977
+07/26 09:01:49 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:02:08 - mmengine - INFO - Epoch(train)  [4][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:39:09  time: 0.3831  data_time: 0.0270  memory: 9748  loss: 4.9474  loss_cls: 0.8616  loss_obj: 2.1055  loss_bbox: 1.9803
+07/26 09:02:26 - mmengine - INFO - Epoch(train)  [4][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:38:34  time: 0.3618  data_time: 0.0022  memory: 9748  loss: 4.8372  loss_cls: 0.8111  loss_obj: 2.0669  loss_bbox: 1.9592
+07/26 09:02:37 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:02:56 - mmengine - INFO - Epoch(train)  [5][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:37:55  time: 0.3971  data_time: 0.0264  memory: 9748  loss: 4.7873  loss_cls: 0.7744  loss_obj: 2.1369  loss_bbox: 1.8759
+07/26 09:03:15 - mmengine - INFO - Epoch(train)  [5][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:37:31  time: 0.3723  data_time: 0.0018  memory: 9748  loss: 4.7468  loss_cls: 0.7691  loss_obj: 2.0682  loss_bbox: 1.9095
+07/26 09:03:26 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:03:26 - mmengine - INFO - Saving checkpoint at 5 epochs
+07/26 09:03:28 - mmengine - WARNING - `save_param_scheduler` is True but `self.param_schedulers` is None, so skip saving parameter schedulers
+07/26 09:03:30 - mmengine - INFO - Epoch(val)  [5][  50/1238]    eta: 0:00:51  time: 0.0435  data_time: 0.0025  memory: 9748  
+07/26 09:03:31 - mmengine - INFO - Epoch(val)  [5][ 100/1238]    eta: 0:00:32  time: 0.0127  data_time: 0.0002  memory: 172  
+07/26 09:03:31 - mmengine - INFO - Epoch(val)  [5][ 150/1238]    eta: 0:00:24  time: 0.0125  data_time: 0.0002  memory: 172  
+07/26 09:03:32 - mmengine - INFO - Epoch(val)  [5][ 200/1238]    eta: 0:00:21  time: 0.0123  data_time: 0.0002  memory: 172  
+07/26 09:03:32 - mmengine - INFO - Epoch(val)  [5][ 250/1238]    eta: 0:00:18  time: 0.0126  data_time: 0.0002  memory: 172  
+07/26 09:03:33 - mmengine - INFO - Epoch(val)  [5][ 300/1238]    eta: 0:00:16  time: 0.0129  data_time: 0.0002  memory: 172  
+07/26 09:03:34 - mmengine - INFO - Epoch(val)  [5][ 350/1238]    eta: 0:00:15  time: 0.0164  data_time: 0.0002  memory: 4509  
+07/26 09:03:35 - mmengine - INFO - Epoch(val)  [5][ 400/1238]    eta: 0:00:14  time: 0.0166  data_time: 0.0002  memory: 4511  
+07/26 09:03:35 - mmengine - INFO - Epoch(val)  [5][ 450/1238]    eta: 0:00:13  time: 0.0125  data_time: 0.0002  memory: 178  
+07/26 09:03:36 - mmengine - INFO - Epoch(val)  [5][ 500/1238]    eta: 0:00:12  time: 0.0124  data_time: 0.0002  memory: 178  
+07/26 09:03:37 - mmengine - INFO - Epoch(val)  [5][ 550/1238]    eta: 0:00:11  time: 0.0121  data_time: 0.0002  memory: 178  
+07/26 09:03:37 - mmengine - INFO - Epoch(val)  [5][ 600/1238]    eta: 0:00:10  time: 0.0123  data_time: 0.0002  memory: 178  
+07/26 09:03:38 - mmengine - INFO - Epoch(val)  [5][ 650/1238]    eta: 0:00:09  time: 0.0124  data_time: 0.0002  memory: 178  
+07/26 09:03:39 - mmengine - INFO - Epoch(val)  [5][ 700/1238]    eta: 0:00:08  time: 0.0127  data_time: 0.0002  memory: 178  
+07/26 09:03:39 - mmengine - INFO - Epoch(val)  [5][ 750/1238]    eta: 0:00:07  time: 0.0129  data_time: 0.0002  memory: 178  
+07/26 09:03:40 - mmengine - INFO - Epoch(val)  [5][ 800/1238]    eta: 0:00:06  time: 0.0124  data_time: 0.0002  memory: 178  
+07/26 09:03:40 - mmengine - INFO - Epoch(val)  [5][ 850/1238]    eta: 0:00:05  time: 0.0125  data_time: 0.0002  memory: 178  
+07/26 09:03:41 - mmengine - INFO - Epoch(val)  [5][ 900/1238]    eta: 0:00:04  time: 0.0119  data_time: 0.0002  memory: 178  
+07/26 09:03:42 - mmengine - INFO - Epoch(val)  [5][ 950/1238]    eta: 0:00:04  time: 0.0126  data_time: 0.0002  memory: 178  
+07/26 09:03:43 - mmengine - INFO - Epoch(val)  [5][1000/1238]    eta: 0:00:03  time: 0.0255  data_time: 0.0002  memory: 4513  
+07/26 09:03:45 - mmengine - INFO - Epoch(val)  [5][1050/1238]    eta: 0:00:03  time: 0.0438  data_time: 0.0003  memory: 4514  
+07/26 09:03:46 - mmengine - INFO - Epoch(val)  [5][1100/1238]    eta: 0:00:02  time: 0.0132  data_time: 0.0003  memory: 178  
+07/26 09:03:47 - mmengine - INFO - Epoch(val)  [5][1150/1238]    eta: 0:00:01  time: 0.0156  data_time: 0.0002  memory: 4509  
+07/26 09:03:47 - mmengine - INFO - Epoch(val)  [5][1200/1238]    eta: 0:00:00  time: 0.0156  data_time: 0.0002  memory: 4509  
+07/26 09:03:56 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=1.72s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=23.83s).
+Accumulating evaluation results...
+DONE (t=12.67s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.431
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.727
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.452
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.146
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.330
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.512
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.367
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.577
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.618
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.308
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.552
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.679
+07/26 09:04:37 - mmengine - INFO - bbox_mAP_copypaste: 0.431 0.727 0.452 0.146 0.330 0.512
+07/26 09:04:38 - mmengine - INFO - Epoch(val) [5][1238/1238]    coco/bbox_mAP: 0.4310  coco/bbox_mAP_50: 0.7270  coco/bbox_mAP_75: 0.4520  coco/bbox_mAP_s: 0.1460  coco/bbox_mAP_m: 0.3300  coco/bbox_mAP_l: 0.5120  data_time: 0.0003  time: 0.0167
+07/26 09:04:40 - mmengine - INFO - The best checkpoint with 0.4310 coco/bbox_mAP at 5 epoch is saved to best_coco_bbox_mAP_epoch_5.pth.
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+07/26 09:05:02 - mmengine - INFO - Epoch(train)  [6][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:37:01  time: 0.4003  data_time: 0.0224  memory: 9752  loss: 4.5657  loss_cls: 0.7309  loss_obj: 2.0044  loss_bbox: 1.8305
+07/26 09:05:20 - mmengine - INFO - Epoch(train)  [6][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:36:36  time: 0.3683  data_time: 0.0027  memory: 9752  loss: 4.6131  loss_cls: 0.7262  loss_obj: 2.0610  loss_bbox: 1.8259
+07/26 09:05:31 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:05:50 - mmengine - INFO - Epoch(train)  [7][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:36:01  time: 0.3862  data_time: 0.0200  memory: 9752  loss: 4.5450  loss_cls: 0.6870  loss_obj: 2.0948  loss_bbox: 1.7631
+07/26 09:06:09 - mmengine - INFO - Epoch(train)  [7][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:35:38  time: 0.3692  data_time: 0.0025  memory: 9752  loss: 4.5039  loss_cls: 0.6696  loss_obj: 2.0381  loss_bbox: 1.7962
+07/26 09:06:19 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:06:39 - mmengine - INFO - Epoch(train)  [8][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:35:08  time: 0.4039  data_time: 0.0249  memory: 9752  loss: 4.5666  loss_cls: 0.6841  loss_obj: 2.1016  loss_bbox: 1.7809
+07/26 09:06:54 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:06:58 - mmengine - INFO - Epoch(train)  [8][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:34:47  time: 0.3722  data_time: 0.0022  memory: 9752  loss: 4.5028  loss_cls: 0.7000  loss_obj: 2.0606  loss_bbox: 1.7421
+07/26 09:07:08 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:07:27 - mmengine - INFO - Epoch(train)  [9][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:34:13  time: 0.3860  data_time: 0.0220  memory: 9752  loss: 4.3921  loss_cls: 0.6523  loss_obj: 2.0301  loss_bbox: 1.7098
+07/26 09:07:45 - mmengine - INFO - Epoch(train)  [9][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:33:49  time: 0.3589  data_time: 0.0022  memory: 9752  loss: 4.3256  loss_cls: 0.6293  loss_obj: 2.0090  loss_bbox: 1.6874
+07/26 09:07:56 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:08:16 - mmengine - INFO - Epoch(train) [10][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:33:19  time: 0.3994  data_time: 0.0228  memory: 9752  loss: 4.3944  loss_cls: 0.6521  loss_obj: 2.0158  loss_bbox: 1.7264
+07/26 09:08:35 - mmengine - INFO - Epoch(train) [10][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:33:00  time: 0.3753  data_time: 0.0020  memory: 9752  loss: 4.3958  loss_cls: 0.6321  loss_obj: 2.0579  loss_bbox: 1.7058
+07/26 09:08:45 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:08:45 - mmengine - INFO - Saving checkpoint at 10 epochs
+07/26 09:08:48 - mmengine - INFO - Epoch(val) [10][  50/1238]    eta: 0:00:15  time: 0.0127  data_time: 0.0004  memory: 9752  
+07/26 09:08:49 - mmengine - INFO - Epoch(val) [10][ 100/1238]    eta: 0:00:14  time: 0.0125  data_time: 0.0002  memory: 172  
+07/26 09:08:49 - mmengine - INFO - Epoch(val) [10][ 150/1238]    eta: 0:00:13  time: 0.0127  data_time: 0.0002  memory: 172  
+07/26 09:08:50 - mmengine - INFO - Epoch(val) [10][ 200/1238]    eta: 0:00:13  time: 0.0128  data_time: 0.0002  memory: 172  
+07/26 09:08:50 - mmengine - INFO - Epoch(val) [10][ 250/1238]    eta: 0:00:12  time: 0.0128  data_time: 0.0002  memory: 172  
+07/26 09:08:51 - mmengine - INFO - Epoch(val) [10][ 300/1238]    eta: 0:00:11  time: 0.0128  data_time: 0.0002  memory: 172  
+07/26 09:08:52 - mmengine - INFO - Epoch(val) [10][ 350/1238]    eta: 0:00:11  time: 0.0130  data_time: 0.0002  memory: 175  
+07/26 09:08:52 - mmengine - INFO - Epoch(val) [10][ 400/1238]    eta: 0:00:10  time: 0.0130  data_time: 0.0002  memory: 179  
+07/26 09:08:53 - mmengine - INFO - Epoch(val) [10][ 450/1238]    eta: 0:00:10  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:08:54 - mmengine - INFO - Epoch(val) [10][ 500/1238]    eta: 0:00:09  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:08:54 - mmengine - INFO - Epoch(val) [10][ 550/1238]    eta: 0:00:08  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:08:55 - mmengine - INFO - Epoch(val) [10][ 600/1238]    eta: 0:00:08  time: 0.0127  data_time: 0.0002  memory: 179  
+07/26 09:08:56 - mmengine - INFO - Epoch(val) [10][ 650/1238]    eta: 0:00:07  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:08:56 - mmengine - INFO - Epoch(val) [10][ 700/1238]    eta: 0:00:06  time: 0.0126  data_time: 0.0002  memory: 179  
+07/26 09:08:57 - mmengine - INFO - Epoch(val) [10][ 750/1238]    eta: 0:00:06  time: 0.0126  data_time: 0.0002  memory: 179  
+07/26 09:08:57 - mmengine - INFO - Epoch(val) [10][ 800/1238]    eta: 0:00:05  time: 0.0124  data_time: 0.0002  memory: 179  
+07/26 09:08:58 - mmengine - INFO - Epoch(val) [10][ 850/1238]    eta: 0:00:04  time: 0.0130  data_time: 0.0002  memory: 179  
+07/26 09:08:59 - mmengine - INFO - Epoch(val) [10][ 900/1238]    eta: 0:00:04  time: 0.0130  data_time: 0.0002  memory: 179  
+07/26 09:08:59 - mmengine - INFO - Epoch(val) [10][ 950/1238]    eta: 0:00:03  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:09:00 - mmengine - INFO - Epoch(val) [10][1000/1238]    eta: 0:00:03  time: 0.0134  data_time: 0.0002  memory: 185  
+07/26 09:09:01 - mmengine - INFO - Epoch(val) [10][1050/1238]    eta: 0:00:02  time: 0.0125  data_time: 0.0002  memory: 191  
+07/26 09:09:01 - mmengine - INFO - Epoch(val) [10][1100/1238]    eta: 0:00:01  time: 0.0115  data_time: 0.0002  memory: 179  
+07/26 09:09:02 - mmengine - INFO - Epoch(val) [10][1150/1238]    eta: 0:00:01  time: 0.0114  data_time: 0.0002  memory: 179  
+07/26 09:09:02 - mmengine - INFO - Epoch(val) [10][1200/1238]    eta: 0:00:00  time: 0.0113  data_time: 0.0002  memory: 175  
+07/26 09:09:09 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=1.43s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=21.09s).
+Accumulating evaluation results...
+DONE (t=9.73s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.461
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.759
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.491
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.178
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.366
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.527
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.372
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.592
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.628
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.368
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.569
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.680
+07/26 09:09:43 - mmengine - INFO - bbox_mAP_copypaste: 0.461 0.759 0.491 0.178 0.366 0.527
+07/26 09:09:44 - mmengine - INFO - Epoch(val) [10][1238/1238]    coco/bbox_mAP: 0.4610  coco/bbox_mAP_50: 0.7590  coco/bbox_mAP_75: 0.4910  coco/bbox_mAP_s: 0.1780  coco/bbox_mAP_m: 0.3660  coco/bbox_mAP_l: 0.5270  data_time: 0.0002  time: 0.0127
+07/26 09:09:44 - mmengine - INFO - The previous best checkpoint /homes/55/jindong/backdoor/work_dirs/v5/box/car_split_train/best_coco_bbox_mAP_epoch_5.pth is removed
+07/26 09:09:46 - mmengine - INFO - The best checkpoint with 0.4610 coco/bbox_mAP at 10 epoch is saved to best_coco_bbox_mAP_epoch_10.pth.
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+07/26 09:10:07 - mmengine - INFO - Epoch(train) [11][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:32:27  time: 0.3881  data_time: 0.0185  memory: 9752  loss: 4.3422  loss_cls: 0.6177  loss_obj: 2.0423  loss_bbox: 1.6823
+07/26 09:10:25 - mmengine - INFO - Epoch(train) [11][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:32:06  time: 0.3680  data_time: 0.0021  memory: 9752  loss: 4.2930  loss_cls: 0.6267  loss_obj: 1.9913  loss_bbox: 1.6750
+07/26 09:10:36 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:10:55 - mmengine - INFO - Epoch(train) [12][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:31:35  time: 0.3930  data_time: 0.0260  memory: 9752  loss: 4.2971  loss_cls: 0.6092  loss_obj: 2.0180  loss_bbox: 1.6699
+07/26 09:11:13 - mmengine - INFO - Epoch(train) [12][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:31:13  time: 0.3587  data_time: 0.0021  memory: 9752  loss: 4.3245  loss_cls: 0.6130  loss_obj: 2.0314  loss_bbox: 1.6801
+07/26 09:11:23 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:11:43 - mmengine - INFO - Epoch(train) [13][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:30:43  time: 0.3982  data_time: 0.0234  memory: 9752  loss: 4.2768  loss_cls: 0.5973  loss_obj: 2.0330  loss_bbox: 1.6465
+07/26 09:12:02 - mmengine - INFO - Epoch(train) [13][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:30:23  time: 0.3723  data_time: 0.0020  memory: 9752  loss: 4.2825  loss_cls: 0.5941  loss_obj: 2.0389  loss_bbox: 1.6495
+07/26 09:12:12 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:12:32 - mmengine - INFO - Epoch(train) [14][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:29:53  time: 0.3923  data_time: 0.0277  memory: 9752  loss: 4.1752  loss_cls: 0.5840  loss_obj: 1.9957  loss_bbox: 1.5955
+07/26 09:12:50 - mmengine - INFO - Epoch(train) [14][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:29:31  time: 0.3571  data_time: 0.0020  memory: 9752  loss: 4.2498  loss_cls: 0.5848  loss_obj: 2.0303  loss_bbox: 1.6347
+07/26 09:13:00 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:13:20 - mmengine - INFO - Epoch(train) [15][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:29:00  time: 0.3865  data_time: 0.0215  memory: 9752  loss: 4.2169  loss_cls: 0.5861  loss_obj: 2.0343  loss_bbox: 1.5965
+07/26 09:13:38 - mmengine - INFO - Epoch(train) [15][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:28:41  time: 0.3737  data_time: 0.0018  memory: 9752  loss: 4.2197  loss_cls: 0.5551  loss_obj: 2.0478  loss_bbox: 1.6168
+07/26 09:13:49 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:13:49 - mmengine - INFO - Saving checkpoint at 15 epochs
+07/26 09:13:52 - mmengine - INFO - Epoch(val) [15][  50/1238]    eta: 0:00:15  time: 0.0128  data_time: 0.0004  memory: 9752  
+07/26 09:13:52 - mmengine - INFO - Epoch(val) [15][ 100/1238]    eta: 0:00:14  time: 0.0129  data_time: 0.0002  memory: 172  
+07/26 09:13:53 - mmengine - INFO - Epoch(val) [15][ 150/1238]    eta: 0:00:13  time: 0.0127  data_time: 0.0002  memory: 172  
+07/26 09:13:54 - mmengine - INFO - Epoch(val) [15][ 200/1238]    eta: 0:00:13  time: 0.0126  data_time: 0.0002  memory: 172  
+07/26 09:13:54 - mmengine - INFO - Epoch(val) [15][ 250/1238]    eta: 0:00:12  time: 0.0126  data_time: 0.0002  memory: 172  
+07/26 09:13:55 - mmengine - INFO - Epoch(val) [15][ 300/1238]    eta: 0:00:11  time: 0.0127  data_time: 0.0002  memory: 172  
+07/26 09:13:56 - mmengine - INFO - Epoch(val) [15][ 350/1238]    eta: 0:00:11  time: 0.0127  data_time: 0.0002  memory: 175  
+07/26 09:13:56 - mmengine - INFO - Epoch(val) [15][ 400/1238]    eta: 0:00:10  time: 0.0125  data_time: 0.0002  memory: 179  
+07/26 09:13:57 - mmengine - INFO - Epoch(val) [15][ 450/1238]    eta: 0:00:09  time: 0.0125  data_time: 0.0002  memory: 179  
+07/26 09:13:58 - mmengine - INFO - Epoch(val) [15][ 500/1238]    eta: 0:00:09  time: 0.0126  data_time: 0.0002  memory: 179  
+07/26 09:13:58 - mmengine - INFO - Epoch(val) [15][ 550/1238]    eta: 0:00:08  time: 0.0125  data_time: 0.0002  memory: 179  
+07/26 09:13:59 - mmengine - INFO - Epoch(val) [15][ 600/1238]    eta: 0:00:08  time: 0.0125  data_time: 0.0002  memory: 179  
+07/26 09:13:59 - mmengine - INFO - Epoch(val) [15][ 650/1238]    eta: 0:00:07  time: 0.0127  data_time: 0.0002  memory: 179  
+07/26 09:14:00 - mmengine - INFO - Epoch(val) [15][ 700/1238]    eta: 0:00:06  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:14:01 - mmengine - INFO - Epoch(val) [15][ 750/1238]    eta: 0:00:06  time: 0.0131  data_time: 0.0002  memory: 179  
+07/26 09:14:01 - mmengine - INFO - Epoch(val) [15][ 800/1238]    eta: 0:00:05  time: 0.0130  data_time: 0.0002  memory: 179  
+07/26 09:14:02 - mmengine - INFO - Epoch(val) [15][ 850/1238]    eta: 0:00:04  time: 0.0130  data_time: 0.0002  memory: 179  
+07/26 09:14:03 - mmengine - INFO - Epoch(val) [15][ 900/1238]    eta: 0:00:04  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:14:03 - mmengine - INFO - Epoch(val) [15][ 950/1238]    eta: 0:00:03  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:14:04 - mmengine - INFO - Epoch(val) [15][1000/1238]    eta: 0:00:03  time: 0.0126  data_time: 0.0002  memory: 185  
+07/26 09:14:05 - mmengine - INFO - Epoch(val) [15][1050/1238]    eta: 0:00:02  time: 0.0112  data_time: 0.0002  memory: 191  
+07/26 09:14:05 - mmengine - INFO - Epoch(val) [15][1100/1238]    eta: 0:00:01  time: 0.0110  data_time: 0.0002  memory: 179  
+07/26 09:14:06 - mmengine - INFO - Epoch(val) [15][1150/1238]    eta: 0:00:01  time: 0.0110  data_time: 0.0002  memory: 179  
+07/26 09:14:06 - mmengine - INFO - Epoch(val) [15][1200/1238]    eta: 0:00:00  time: 0.0109  data_time: 0.0002  memory: 175  
+07/26 09:14:13 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=1.08s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=21.64s).
+Accumulating evaluation results...
+DONE (t=8.35s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.484
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.761
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.530
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.165
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.387
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.562
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.393
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.614
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.648
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.335
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.572
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.713
+07/26 09:14:46 - mmengine - INFO - bbox_mAP_copypaste: 0.484 0.761 0.530 0.165 0.387 0.562
+07/26 09:14:46 - mmengine - INFO - Epoch(val) [15][1238/1238]    coco/bbox_mAP: 0.4840  coco/bbox_mAP_50: 0.7610  coco/bbox_mAP_75: 0.5300  coco/bbox_mAP_s: 0.1650  coco/bbox_mAP_m: 0.3870  coco/bbox_mAP_l: 0.5620  data_time: 0.0002  time: 0.0124
+07/26 09:14:46 - mmengine - INFO - The previous best checkpoint /homes/55/jindong/backdoor/work_dirs/v5/box/car_split_train/best_coco_bbox_mAP_epoch_10.pth is removed
+07/26 09:14:49 - mmengine - INFO - The best checkpoint with 0.4840 coco/bbox_mAP at 15 epoch is saved to best_coco_bbox_mAP_epoch_15.pth.
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+07/26 09:15:10 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:15:10 - mmengine - INFO - Epoch(train) [16][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:28:11  time: 0.3866  data_time: 0.0192  memory: 9752  loss: 4.2105  loss_cls: 0.5638  loss_obj: 2.0319  loss_bbox: 1.6148
+07/26 09:15:29 - mmengine - INFO - Epoch(train) [16][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:27:52  time: 0.3710  data_time: 0.0020  memory: 9752  loss: 4.1299  loss_cls: 0.5620  loss_obj: 1.9809  loss_bbox: 1.5870
+07/26 09:15:39 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:15:59 - mmengine - INFO - Epoch(train) [17][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:27:21  time: 0.3923  data_time: 0.0215  memory: 9752  loss: 4.1263  loss_cls: 0.5527  loss_obj: 1.9769  loss_bbox: 1.5967
+07/26 09:16:16 - mmengine - INFO - Epoch(train) [17][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:27:00  time: 0.3552  data_time: 0.0021  memory: 9752  loss: 4.1463  loss_cls: 0.5432  loss_obj: 2.0344  loss_bbox: 1.5687
+07/26 09:16:27 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:16:46 - mmengine - INFO - Epoch(train) [18][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:26:30  time: 0.3829  data_time: 0.0210  memory: 9752  loss: 4.1083  loss_cls: 0.5390  loss_obj: 1.9979  loss_bbox: 1.5714
+07/26 09:17:05 - mmengine - INFO - Epoch(train) [18][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:26:11  time: 0.3707  data_time: 0.0018  memory: 9752  loss: 4.0857  loss_cls: 0.5575  loss_obj: 1.9535  loss_bbox: 1.5747
+07/26 09:17:15 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:17:35 - mmengine - INFO - Epoch(train) [19][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:25:41  time: 0.3889  data_time: 0.0256  memory: 9752  loss: 4.1625  loss_cls: 0.5464  loss_obj: 2.0244  loss_bbox: 1.5917
+07/26 09:17:53 - mmengine - INFO - Epoch(train) [19][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:25:21  time: 0.3647  data_time: 0.0021  memory: 9752  loss: 4.0461  loss_cls: 0.5105  loss_obj: 1.9787  loss_bbox: 1.5569
+07/26 09:18:03 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:18:23 - mmengine - INFO - Epoch(train) [20][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:24:51  time: 0.3934  data_time: 0.0278  memory: 9752  loss: 4.1765  loss_cls: 0.5457  loss_obj: 2.0531  loss_bbox: 1.5776
+07/26 09:18:41 - mmengine - INFO - Epoch(train) [20][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:24:31  time: 0.3647  data_time: 0.0019  memory: 9752  loss: 4.0327  loss_cls: 0.5206  loss_obj: 1.9766  loss_bbox: 1.5355
+07/26 09:18:51 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:18:51 - mmengine - INFO - Saving checkpoint at 20 epochs
+07/26 09:18:54 - mmengine - INFO - Epoch(val) [20][  50/1238]    eta: 0:00:14  time: 0.0125  data_time: 0.0003  memory: 9752  
+07/26 09:18:55 - mmengine - INFO - Epoch(val) [20][ 100/1238]    eta: 0:00:14  time: 0.0126  data_time: 0.0002  memory: 172  
+07/26 09:18:56 - mmengine - INFO - Epoch(val) [20][ 150/1238]    eta: 0:00:13  time: 0.0122  data_time: 0.0002  memory: 172  
+07/26 09:18:56 - mmengine - INFO - Epoch(val) [20][ 200/1238]    eta: 0:00:12  time: 0.0123  data_time: 0.0002  memory: 172  
+07/26 09:18:57 - mmengine - INFO - Epoch(val) [20][ 250/1238]    eta: 0:00:12  time: 0.0123  data_time: 0.0002  memory: 172  
+07/26 09:18:57 - mmengine - INFO - Epoch(val) [20][ 300/1238]    eta: 0:00:11  time: 0.0124  data_time: 0.0002  memory: 172  
+07/26 09:18:58 - mmengine - INFO - Epoch(val) [20][ 350/1238]    eta: 0:00:11  time: 0.0125  data_time: 0.0002  memory: 175  
+07/26 09:18:59 - mmengine - INFO - Epoch(val) [20][ 400/1238]    eta: 0:00:10  time: 0.0125  data_time: 0.0002  memory: 179  
+07/26 09:18:59 - mmengine - INFO - Epoch(val) [20][ 450/1238]    eta: 0:00:09  time: 0.0125  data_time: 0.0002  memory: 179  
+07/26 09:19:00 - mmengine - INFO - Epoch(val) [20][ 500/1238]    eta: 0:00:09  time: 0.0124  data_time: 0.0002  memory: 179  
+07/26 09:19:01 - mmengine - INFO - Epoch(val) [20][ 550/1238]    eta: 0:00:08  time: 0.0122  data_time: 0.0002  memory: 179  
+07/26 09:19:01 - mmengine - INFO - Epoch(val) [20][ 600/1238]    eta: 0:00:07  time: 0.0125  data_time: 0.0002  memory: 179  
+07/26 09:19:02 - mmengine - INFO - Epoch(val) [20][ 650/1238]    eta: 0:00:07  time: 0.0127  data_time: 0.0002  memory: 179  
+07/26 09:19:02 - mmengine - INFO - Epoch(val) [20][ 700/1238]    eta: 0:00:06  time: 0.0127  data_time: 0.0002  memory: 179  
+07/26 09:19:03 - mmengine - INFO - Epoch(val) [20][ 750/1238]    eta: 0:00:06  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:19:04 - mmengine - INFO - Epoch(val) [20][ 800/1238]    eta: 0:00:05  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:19:04 - mmengine - INFO - Epoch(val) [20][ 850/1238]    eta: 0:00:04  time: 0.0127  data_time: 0.0002  memory: 179  
+07/26 09:19:05 - mmengine - INFO - Epoch(val) [20][ 900/1238]    eta: 0:00:04  time: 0.0126  data_time: 0.0002  memory: 179  
+07/26 09:19:06 - mmengine - INFO - Epoch(val) [20][ 950/1238]    eta: 0:00:03  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:19:06 - mmengine - INFO - Epoch(val) [20][1000/1238]    eta: 0:00:02  time: 0.0127  data_time: 0.0002  memory: 185  
+07/26 09:19:07 - mmengine - INFO - Epoch(val) [20][1050/1238]    eta: 0:00:02  time: 0.0123  data_time: 0.0002  memory: 191  
+07/26 09:19:07 - mmengine - INFO - Epoch(val) [20][1100/1238]    eta: 0:00:01  time: 0.0113  data_time: 0.0002  memory: 179  
+07/26 09:19:08 - mmengine - INFO - Epoch(val) [20][1150/1238]    eta: 0:00:01  time: 0.0112  data_time: 0.0002  memory: 179  
+07/26 09:19:09 - mmengine - INFO - Epoch(val) [20][1200/1238]    eta: 0:00:00  time: 0.0112  data_time: 0.0001  memory: 175  
+07/26 09:19:15 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=1.07s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=21.23s).
+Accumulating evaluation results...
+DONE (t=8.44s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.494
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.765
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.544
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.196
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.394
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.568
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.396
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.621
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.653
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.366
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.587
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.712
+07/26 09:19:47 - mmengine - INFO - bbox_mAP_copypaste: 0.494 0.765 0.544 0.196 0.394 0.568
+07/26 09:19:48 - mmengine - INFO - Epoch(val) [20][1238/1238]    coco/bbox_mAP: 0.4940  coco/bbox_mAP_50: 0.7650  coco/bbox_mAP_75: 0.5440  coco/bbox_mAP_s: 0.1960  coco/bbox_mAP_m: 0.3940  coco/bbox_mAP_l: 0.5680  data_time: 0.0002  time: 0.0123
+07/26 09:19:48 - mmengine - INFO - The previous best checkpoint /homes/55/jindong/backdoor/work_dirs/v5/box/car_split_train/best_coco_bbox_mAP_epoch_15.pth is removed
+07/26 09:19:50 - mmengine - INFO - The best checkpoint with 0.4940 coco/bbox_mAP at 20 epoch is saved to best_coco_bbox_mAP_epoch_20.pth.
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+07/26 09:20:11 - mmengine - INFO - Epoch(train) [21][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:24:00  time: 0.3755  data_time: 0.0195  memory: 9752  loss: 4.0602  loss_cls: 0.5388  loss_obj: 1.9897  loss_bbox: 1.5317
+07/26 09:20:29 - mmengine - INFO - Epoch(train) [21][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:23:41  time: 0.3677  data_time: 0.0020  memory: 9752  loss: 3.9420  loss_cls: 0.4871  loss_obj: 1.9426  loss_bbox: 1.5123
+07/26 09:20:40 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:21:00 - mmengine - INFO - Epoch(train) [22][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:23:12  time: 0.3887  data_time: 0.0229  memory: 9752  loss: 4.1191  loss_cls: 0.5273  loss_obj: 2.0197  loss_bbox: 1.5721
+07/26 09:21:18 - mmengine - INFO - Epoch(train) [22][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:22:52  time: 0.3629  data_time: 0.0022  memory: 9752  loss: 4.0190  loss_cls: 0.5193  loss_obj: 1.9662  loss_bbox: 1.5335
+07/26 09:21:28 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:21:47 - mmengine - INFO - Epoch(train) [23][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:22:22  time: 0.3873  data_time: 0.0218  memory: 9752  loss: 3.9456  loss_cls: 0.5177  loss_obj: 1.9026  loss_bbox: 1.5253
+07/26 09:22:06 - mmengine - INFO - Epoch(train) [23][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:22:03  time: 0.3674  data_time: 0.0019  memory: 9752  loss: 4.0582  loss_cls: 0.5089  loss_obj: 2.0199  loss_bbox: 1.5293
+07/26 09:22:17 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:22:21 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:22:36 - mmengine - INFO - Epoch(train) [24][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:21:33  time: 0.3936  data_time: 0.0281  memory: 9752  loss: 4.0107  loss_cls: 0.5019  loss_obj: 2.0152  loss_bbox: 1.4937
+07/26 09:22:54 - mmengine - INFO - Epoch(train) [24][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:21:14  time: 0.3647  data_time: 0.0020  memory: 9752  loss: 4.0376  loss_cls: 0.5150  loss_obj: 2.0142  loss_bbox: 1.5084
+07/26 09:23:05 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:23:24 - mmengine - INFO - Epoch(train) [25][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:20:44  time: 0.3925  data_time: 0.0255  memory: 9752  loss: 4.0076  loss_cls: 0.5011  loss_obj: 1.9913  loss_bbox: 1.5152
+07/26 09:23:42 - mmengine - INFO - Epoch(train) [25][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:20:25  time: 0.3642  data_time: 0.0020  memory: 9752  loss: 4.0111  loss_cls: 0.5099  loss_obj: 1.9711  loss_bbox: 1.5301
+07/26 09:23:53 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:23:53 - mmengine - INFO - Saving checkpoint at 25 epochs
+07/26 09:23:56 - mmengine - INFO - Epoch(val) [25][  50/1238]    eta: 0:00:15  time: 0.0133  data_time: 0.0004  memory: 9752  
+07/26 09:23:57 - mmengine - INFO - Epoch(val) [25][ 100/1238]    eta: 0:00:14  time: 0.0129  data_time: 0.0002  memory: 172  
+07/26 09:23:58 - mmengine - INFO - Epoch(val) [25][ 150/1238]    eta: 0:00:14  time: 0.0127  data_time: 0.0002  memory: 172  
+07/26 09:23:58 - mmengine - INFO - Epoch(val) [25][ 200/1238]    eta: 0:00:13  time: 0.0128  data_time: 0.0002  memory: 172  
+07/26 09:23:59 - mmengine - INFO - Epoch(val) [25][ 250/1238]    eta: 0:00:12  time: 0.0129  data_time: 0.0002  memory: 172  
+07/26 09:23:59 - mmengine - INFO - Epoch(val) [25][ 300/1238]    eta: 0:00:12  time: 0.0130  data_time: 0.0002  memory: 172  
+07/26 09:24:00 - mmengine - INFO - Epoch(val) [25][ 350/1238]    eta: 0:00:11  time: 0.0129  data_time: 0.0002  memory: 175  
+07/26 09:24:01 - mmengine - INFO - Epoch(val) [25][ 400/1238]    eta: 0:00:10  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:24:01 - mmengine - INFO - Epoch(val) [25][ 450/1238]    eta: 0:00:10  time: 0.0131  data_time: 0.0002  memory: 179  
+07/26 09:24:02 - mmengine - INFO - Epoch(val) [25][ 500/1238]    eta: 0:00:09  time: 0.0133  data_time: 0.0002  memory: 179  
+07/26 09:24:03 - mmengine - INFO - Epoch(val) [25][ 550/1238]    eta: 0:00:08  time: 0.0130  data_time: 0.0002  memory: 179  
+07/26 09:24:03 - mmengine - INFO - Epoch(val) [25][ 600/1238]    eta: 0:00:08  time: 0.0130  data_time: 0.0002  memory: 179  
+07/26 09:24:04 - mmengine - INFO - Epoch(val) [25][ 650/1238]    eta: 0:00:07  time: 0.0130  data_time: 0.0002  memory: 179  
+07/26 09:24:05 - mmengine - INFO - Epoch(val) [25][ 700/1238]    eta: 0:00:06  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:24:05 - mmengine - INFO - Epoch(val) [25][ 750/1238]    eta: 0:00:06  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:24:06 - mmengine - INFO - Epoch(val) [25][ 800/1238]    eta: 0:00:05  time: 0.0131  data_time: 0.0002  memory: 179  
+07/26 09:24:07 - mmengine - INFO - Epoch(val) [25][ 850/1238]    eta: 0:00:05  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:24:07 - mmengine - INFO - Epoch(val) [25][ 900/1238]    eta: 0:00:04  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:24:08 - mmengine - INFO - Epoch(val) [25][ 950/1238]    eta: 0:00:03  time: 0.0131  data_time: 0.0002  memory: 179  
+07/26 09:24:09 - mmengine - INFO - Epoch(val) [25][1000/1238]    eta: 0:00:03  time: 0.0127  data_time: 0.0002  memory: 185  
+07/26 09:24:09 - mmengine - INFO - Epoch(val) [25][1050/1238]    eta: 0:00:02  time: 0.0116  data_time: 0.0002  memory: 191  
+07/26 09:24:10 - mmengine - INFO - Epoch(val) [25][1100/1238]    eta: 0:00:01  time: 0.0114  data_time: 0.0002  memory: 179  
+07/26 09:24:10 - mmengine - INFO - Epoch(val) [25][1150/1238]    eta: 0:00:01  time: 0.0113  data_time: 0.0002  memory: 179  
+07/26 09:24:11 - mmengine - INFO - Epoch(val) [25][1200/1238]    eta: 0:00:00  time: 0.0114  data_time: 0.0002  memory: 175  
+07/26 09:24:17 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=1.04s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=21.19s).
+Accumulating evaluation results...
+DONE (t=9.20s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.518
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.779
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.569
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.182
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.400
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.598
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.409
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.636
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.670
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.353
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.597
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.734
+07/26 09:24:50 - mmengine - INFO - bbox_mAP_copypaste: 0.518 0.779 0.569 0.182 0.400 0.598
+07/26 09:24:51 - mmengine - INFO - Epoch(val) [25][1238/1238]    coco/bbox_mAP: 0.5180  coco/bbox_mAP_50: 0.7790  coco/bbox_mAP_75: 0.5690  coco/bbox_mAP_s: 0.1820  coco/bbox_mAP_m: 0.4000  coco/bbox_mAP_l: 0.5980  data_time: 0.0002  time: 0.0127
+07/26 09:24:51 - mmengine - INFO - The previous best checkpoint /homes/55/jindong/backdoor/work_dirs/v5/box/car_split_train/best_coco_bbox_mAP_epoch_20.pth is removed
+07/26 09:24:53 - mmengine - INFO - The best checkpoint with 0.5180 coco/bbox_mAP at 25 epoch is saved to best_coco_bbox_mAP_epoch_25.pth.
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+07/26 09:25:14 - mmengine - INFO - Epoch(train) [26][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:19:55  time: 0.3780  data_time: 0.0230  memory: 9752  loss: 3.9639  loss_cls: 0.5214  loss_obj: 1.9407  loss_bbox: 1.5018
+07/26 09:25:32 - mmengine - INFO - Epoch(train) [26][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:19:36  time: 0.3575  data_time: 0.0020  memory: 9752  loss: 3.9182  loss_cls: 0.4847  loss_obj: 1.9407  loss_bbox: 1.4927
+07/26 09:25:43 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:26:02 - mmengine - INFO - Epoch(train) [27][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:19:06  time: 0.3908  data_time: 0.0236  memory: 9752  loss: 3.9656  loss_cls: 0.5021  loss_obj: 1.9713  loss_bbox: 1.4922
+07/26 09:26:20 - mmengine - INFO - Epoch(train) [27][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:18:47  time: 0.3625  data_time: 0.0020  memory: 9752  loss: 3.9623  loss_cls: 0.4988  loss_obj: 1.9583  loss_bbox: 1.5052
+07/26 09:26:30 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:26:50 - mmengine - INFO - Epoch(train) [28][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:18:17  time: 0.3918  data_time: 0.0214  memory: 9752  loss: 3.9626  loss_cls: 0.5017  loss_obj: 1.9819  loss_bbox: 1.4790
+07/26 09:27:08 - mmengine - INFO - Epoch(train) [28][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:17:58  time: 0.3671  data_time: 0.0023  memory: 9752  loss: 3.8782  loss_cls: 0.4773  loss_obj: 1.9151  loss_bbox: 1.4857
+07/26 09:27:19 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:27:39 - mmengine - INFO - Epoch(train) [29][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:17:29  time: 0.3996  data_time: 0.0241  memory: 9752  loss: 3.8480  loss_cls: 0.4962  loss_obj: 1.8728  loss_bbox: 1.4791
+07/26 09:27:57 - mmengine - INFO - Epoch(train) [29][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:17:10  time: 0.3570  data_time: 0.0020  memory: 9752  loss: 3.9605  loss_cls: 0.5064  loss_obj: 1.9531  loss_bbox: 1.5010
+07/26 09:28:08 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:28:27 - mmengine - INFO - Epoch(train) [30][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:16:40  time: 0.3851  data_time: 0.0224  memory: 9752  loss: 3.9951  loss_cls: 0.4765  loss_obj: 1.9972  loss_bbox: 1.5214
+07/26 09:28:45 - mmengine - INFO - Epoch(train) [30][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:16:21  time: 0.3613  data_time: 0.0020  memory: 9752  loss: 3.7997  loss_cls: 0.4666  loss_obj: 1.8692  loss_bbox: 1.4639
+07/26 09:28:55 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:28:55 - mmengine - INFO - Saving checkpoint at 30 epochs
+07/26 09:28:58 - mmengine - INFO - Epoch(val) [30][  50/1238]    eta: 0:00:15  time: 0.0128  data_time: 0.0004  memory: 9752  
+07/26 09:28:59 - mmengine - INFO - Epoch(val) [30][ 100/1238]    eta: 0:00:14  time: 0.0128  data_time: 0.0002  memory: 172  
+07/26 09:29:00 - mmengine - INFO - Epoch(val) [30][ 150/1238]    eta: 0:00:14  time: 0.0130  data_time: 0.0002  memory: 172  
+07/26 09:29:00 - mmengine - INFO - Epoch(val) [30][ 200/1238]    eta: 0:00:13  time: 0.0134  data_time: 0.0002  memory: 172  
+07/26 09:29:01 - mmengine - INFO - Epoch(val) [30][ 250/1238]    eta: 0:00:12  time: 0.0126  data_time: 0.0002  memory: 172  
+07/26 09:29:02 - mmengine - INFO - Epoch(val) [30][ 300/1238]    eta: 0:00:12  time: 0.0127  data_time: 0.0002  memory: 172  
+07/26 09:29:02 - mmengine - INFO - Epoch(val) [30][ 350/1238]    eta: 0:00:11  time: 0.0126  data_time: 0.0002  memory: 175  
+07/26 09:29:03 - mmengine - INFO - Epoch(val) [30][ 400/1238]    eta: 0:00:10  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:29:04 - mmengine - INFO - Epoch(val) [30][ 450/1238]    eta: 0:00:10  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:29:04 - mmengine - INFO - Epoch(val) [30][ 500/1238]    eta: 0:00:09  time: 0.0136  data_time: 0.0002  memory: 179  
+07/26 09:29:05 - mmengine - INFO - Epoch(val) [30][ 550/1238]    eta: 0:00:08  time: 0.0133  data_time: 0.0002  memory: 179  
+07/26 09:29:06 - mmengine - INFO - Epoch(val) [30][ 600/1238]    eta: 0:00:08  time: 0.0130  data_time: 0.0002  memory: 179  
+07/26 09:29:06 - mmengine - INFO - Epoch(val) [30][ 650/1238]    eta: 0:00:07  time: 0.0133  data_time: 0.0002  memory: 179  
+07/26 09:29:07 - mmengine - INFO - Epoch(val) [30][ 700/1238]    eta: 0:00:07  time: 0.0134  data_time: 0.0002  memory: 179  
+07/26 09:29:08 - mmengine - INFO - Epoch(val) [30][ 750/1238]    eta: 0:00:06  time: 0.0135  data_time: 0.0002  memory: 179  
+07/26 09:29:08 - mmengine - INFO - Epoch(val) [30][ 800/1238]    eta: 0:00:05  time: 0.0132  data_time: 0.0002  memory: 179  
+07/26 09:29:09 - mmengine - INFO - Epoch(val) [30][ 850/1238]    eta: 0:00:05  time: 0.0131  data_time: 0.0002  memory: 179  
+07/26 09:29:10 - mmengine - INFO - Epoch(val) [30][ 900/1238]    eta: 0:00:04  time: 0.0131  data_time: 0.0002  memory: 179  
+07/26 09:29:10 - mmengine - INFO - Epoch(val) [30][ 950/1238]    eta: 0:00:03  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:29:11 - mmengine - INFO - Epoch(val) [30][1000/1238]    eta: 0:00:03  time: 0.0122  data_time: 0.0002  memory: 185  
+07/26 09:29:11 - mmengine - INFO - Epoch(val) [30][1050/1238]    eta: 0:00:02  time: 0.0112  data_time: 0.0002  memory: 191  
+07/26 09:29:12 - mmengine - INFO - Epoch(val) [30][1100/1238]    eta: 0:00:01  time: 0.0110  data_time: 0.0002  memory: 179  
+07/26 09:29:13 - mmengine - INFO - Epoch(val) [30][1150/1238]    eta: 0:00:01  time: 0.0111  data_time: 0.0002  memory: 179  
+07/26 09:29:13 - mmengine - INFO - Epoch(val) [30][1200/1238]    eta: 0:00:00  time: 0.0110  data_time: 0.0002  memory: 175  
+07/26 09:29:19 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=1.04s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=20.81s).
+Accumulating evaluation results...
+DONE (t=8.06s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.525
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.784
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.580
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.210
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.412
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.600
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.413
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.641
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.674
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.375
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.594
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.737
+07/26 09:29:51 - mmengine - INFO - bbox_mAP_copypaste: 0.525 0.784 0.580 0.210 0.412 0.600
+07/26 09:29:51 - mmengine - INFO - Epoch(val) [30][1238/1238]    coco/bbox_mAP: 0.5250  coco/bbox_mAP_50: 0.7840  coco/bbox_mAP_75: 0.5800  coco/bbox_mAP_s: 0.2100  coco/bbox_mAP_m: 0.4120  coco/bbox_mAP_l: 0.6000  data_time: 0.0002  time: 0.0126
+07/26 09:29:51 - mmengine - INFO - The previous best checkpoint /homes/55/jindong/backdoor/work_dirs/v5/box/car_split_train/best_coco_bbox_mAP_epoch_25.pth is removed
+07/26 09:29:54 - mmengine - INFO - The best checkpoint with 0.5250 coco/bbox_mAP at 30 epoch is saved to best_coco_bbox_mAP_epoch_30.pth.
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+07/26 09:30:15 - mmengine - INFO - Epoch(train) [31][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:15:51  time: 0.3779  data_time: 0.0181  memory: 9752  loss: 3.9291  loss_cls: 0.4759  loss_obj: 1.9459  loss_bbox: 1.5073
+07/26 09:30:33 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:30:33 - mmengine - INFO - Epoch(train) [31][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:15:32  time: 0.3619  data_time: 0.0020  memory: 9752  loss: 3.8807  loss_cls: 0.4974  loss_obj: 1.9081  loss_bbox: 1.4752
+07/26 09:30:43 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:31:03 - mmengine - INFO - Epoch(train) [32][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:15:02  time: 0.4000  data_time: 0.0282  memory: 9752  loss: 3.8714  loss_cls: 0.4694  loss_obj: 1.9508  loss_bbox: 1.4513
+07/26 09:31:21 - mmengine - INFO - Epoch(train) [32][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:14:43  time: 0.3582  data_time: 0.0021  memory: 9752  loss: 3.8583  loss_cls: 0.4727  loss_obj: 1.9092  loss_bbox: 1.4765
+07/26 09:31:31 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:31:51 - mmengine - INFO - Epoch(train) [33][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:14:13  time: 0.3872  data_time: 0.0260  memory: 9752  loss: 3.8706  loss_cls: 0.4698  loss_obj: 1.9297  loss_bbox: 1.4711
+07/26 09:32:09 - mmengine - INFO - Epoch(train) [33][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:13:54  time: 0.3589  data_time: 0.0021  memory: 9752  loss: 3.8537  loss_cls: 0.4884  loss_obj: 1.8930  loss_bbox: 1.4723
+07/26 09:32:19 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:32:39 - mmengine - INFO - Epoch(train) [34][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:13:25  time: 0.3953  data_time: 0.0246  memory: 9752  loss: 3.8548  loss_cls: 0.4892  loss_obj: 1.9055  loss_bbox: 1.4600
+07/26 09:32:57 - mmengine - INFO - Epoch(train) [34][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:13:06  time: 0.3707  data_time: 0.0021  memory: 9752  loss: 3.8691  loss_cls: 0.4858  loss_obj: 1.9305  loss_bbox: 1.4528
+07/26 09:33:08 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:33:27 - mmengine - INFO - Epoch(train) [35][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:12:36  time: 0.3923  data_time: 0.0237  memory: 9752  loss: 3.8125  loss_cls: 0.4783  loss_obj: 1.8680  loss_bbox: 1.4662
+07/26 09:33:45 - mmengine - INFO - Epoch(train) [35][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:12:17  time: 0.3602  data_time: 0.0019  memory: 9752  loss: 3.8645  loss_cls: 0.4757  loss_obj: 1.9277  loss_bbox: 1.4612
+07/26 09:33:56 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:33:56 - mmengine - INFO - Saving checkpoint at 35 epochs
+07/26 09:33:59 - mmengine - INFO - Epoch(val) [35][  50/1238]    eta: 0:00:16  time: 0.0137  data_time: 0.0004  memory: 9752  
+07/26 09:33:59 - mmengine - INFO - Epoch(val) [35][ 100/1238]    eta: 0:00:15  time: 0.0137  data_time: 0.0002  memory: 172  
+07/26 09:34:00 - mmengine - INFO - Epoch(val) [35][ 150/1238]    eta: 0:00:14  time: 0.0136  data_time: 0.0002  memory: 172  
+07/26 09:34:01 - mmengine - INFO - Epoch(val) [35][ 200/1238]    eta: 0:00:14  time: 0.0135  data_time: 0.0002  memory: 172  
+07/26 09:34:01 - mmengine - INFO - Epoch(val) [35][ 250/1238]    eta: 0:00:13  time: 0.0133  data_time: 0.0003  memory: 172  
+07/26 09:34:02 - mmengine - INFO - Epoch(val) [35][ 300/1238]    eta: 0:00:12  time: 0.0132  data_time: 0.0002  memory: 172  
+07/26 09:34:03 - mmengine - INFO - Epoch(val) [35][ 350/1238]    eta: 0:00:11  time: 0.0132  data_time: 0.0002  memory: 175  
+07/26 09:34:03 - mmengine - INFO - Epoch(val) [35][ 400/1238]    eta: 0:00:11  time: 0.0131  data_time: 0.0002  memory: 179  
+07/26 09:34:04 - mmengine - INFO - Epoch(val) [35][ 450/1238]    eta: 0:00:10  time: 0.0131  data_time: 0.0002  memory: 179  
+07/26 09:34:05 - mmengine - INFO - Epoch(val) [35][ 500/1238]    eta: 0:00:09  time: 0.0133  data_time: 0.0002  memory: 179  
+07/26 09:34:05 - mmengine - INFO - Epoch(val) [35][ 550/1238]    eta: 0:00:09  time: 0.0127  data_time: 0.0002  memory: 179  
+07/26 09:34:06 - mmengine - INFO - Epoch(val) [35][ 600/1238]    eta: 0:00:08  time: 0.0126  data_time: 0.0002  memory: 179  
+07/26 09:34:07 - mmengine - INFO - Epoch(val) [35][ 650/1238]    eta: 0:00:07  time: 0.0126  data_time: 0.0002  memory: 179  
+07/26 09:34:07 - mmengine - INFO - Epoch(val) [35][ 700/1238]    eta: 0:00:07  time: 0.0125  data_time: 0.0002  memory: 179  
+07/26 09:34:08 - mmengine - INFO - Epoch(val) [35][ 750/1238]    eta: 0:00:06  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:34:08 - mmengine - INFO - Epoch(val) [35][ 800/1238]    eta: 0:00:05  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:34:09 - mmengine - INFO - Epoch(val) [35][ 850/1238]    eta: 0:00:05  time: 0.0130  data_time: 0.0002  memory: 179  
+07/26 09:34:10 - mmengine - INFO - Epoch(val) [35][ 900/1238]    eta: 0:00:04  time: 0.0130  data_time: 0.0002  memory: 179  
+07/26 09:34:10 - mmengine - INFO - Epoch(val) [35][ 950/1238]    eta: 0:00:03  time: 0.0126  data_time: 0.0002  memory: 179  
+07/26 09:34:11 - mmengine - INFO - Epoch(val) [35][1000/1238]    eta: 0:00:03  time: 0.0114  data_time: 0.0002  memory: 185  
+07/26 09:34:12 - mmengine - INFO - Epoch(val) [35][1050/1238]    eta: 0:00:02  time: 0.0114  data_time: 0.0002  memory: 191  
+07/26 09:34:12 - mmengine - INFO - Epoch(val) [35][1100/1238]    eta: 0:00:01  time: 0.0112  data_time: 0.0002  memory: 179  
+07/26 09:34:13 - mmengine - INFO - Epoch(val) [35][1150/1238]    eta: 0:00:01  time: 0.0112  data_time: 0.0002  memory: 179  
+07/26 09:34:13 - mmengine - INFO - Epoch(val) [35][1200/1238]    eta: 0:00:00  time: 0.0113  data_time: 0.0002  memory: 175  
+07/26 09:34:19 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.97s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=20.08s).
+Accumulating evaluation results...
+DONE (t=7.79s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.531
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.786
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.586
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.206
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.417
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.611
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.419
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.642
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.674
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.363
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.596
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.740
+07/26 09:34:49 - mmengine - INFO - bbox_mAP_copypaste: 0.531 0.786 0.586 0.206 0.417 0.611
+07/26 09:34:50 - mmengine - INFO - Epoch(val) [35][1238/1238]    coco/bbox_mAP: 0.5310  coco/bbox_mAP_50: 0.7860  coco/bbox_mAP_75: 0.5860  coco/bbox_mAP_s: 0.2060  coco/bbox_mAP_m: 0.4170  coco/bbox_mAP_l: 0.6110  data_time: 0.0002  time: 0.0126
+07/26 09:34:50 - mmengine - INFO - The previous best checkpoint /homes/55/jindong/backdoor/work_dirs/v5/box/car_split_train/best_coco_bbox_mAP_epoch_30.pth is removed
+07/26 09:34:53 - mmengine - INFO - The best checkpoint with 0.5310 coco/bbox_mAP at 35 epoch is saved to best_coco_bbox_mAP_epoch_35.pth.
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+07/26 09:35:13 - mmengine - INFO - Epoch(train) [36][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:11:47  time: 0.3751  data_time: 0.0179  memory: 9752  loss: 3.8351  loss_cls: 0.4665  loss_obj: 1.9127  loss_bbox: 1.4558
+07/26 09:35:31 - mmengine - INFO - Epoch(train) [36][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:11:28  time: 0.3619  data_time: 0.0021  memory: 9752  loss: 3.9032  loss_cls: 0.4529  loss_obj: 1.9820  loss_bbox: 1.4683
+07/26 09:35:42 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:36:02 - mmengine - INFO - Epoch(train) [37][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:10:59  time: 0.3968  data_time: 0.0253  memory: 9752  loss: 3.8911  loss_cls: 0.4742  loss_obj: 1.9523  loss_bbox: 1.4647
+07/26 09:36:20 - mmengine - INFO - Epoch(train) [37][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:10:40  time: 0.3729  data_time: 0.0020  memory: 9752  loss: 3.8171  loss_cls: 0.4432  loss_obj: 1.9133  loss_bbox: 1.4606
+07/26 09:36:31 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:36:50 - mmengine - INFO - Epoch(train) [38][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:10:10  time: 0.3898  data_time: 0.0213  memory: 9752  loss: 3.8074  loss_cls: 0.4649  loss_obj: 1.9146  loss_bbox: 1.4279
+07/26 09:37:08 - mmengine - INFO - Epoch(train) [38][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:09:51  time: 0.3622  data_time: 0.0022  memory: 9752  loss: 3.9322  loss_cls: 0.4859  loss_obj: 1.9528  loss_bbox: 1.4935
+07/26 09:37:18 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:37:38 - mmengine - INFO - Epoch(train) [39][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:09:22  time: 0.3934  data_time: 0.0263  memory: 9752  loss: 3.8516  loss_cls: 0.4386  loss_obj: 1.9551  loss_bbox: 1.4579
+07/26 09:37:42 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:37:57 - mmengine - INFO - Epoch(train) [39][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:09:03  time: 0.3706  data_time: 0.0020  memory: 9752  loss: 3.9352  loss_cls: 0.4839  loss_obj: 1.9857  loss_bbox: 1.4655
+07/26 09:38:08 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:38:27 - mmengine - INFO - Epoch(train) [40][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:08:33  time: 0.3923  data_time: 0.0200  memory: 9752  loss: 3.7472  loss_cls: 0.4445  loss_obj: 1.8779  loss_bbox: 1.4248
+07/26 09:38:45 - mmengine - INFO - Epoch(train) [40][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:08:15  time: 0.3565  data_time: 0.0020  memory: 9752  loss: 3.8212  loss_cls: 0.4713  loss_obj: 1.8995  loss_bbox: 1.4504
+07/26 09:38:55 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:38:55 - mmengine - INFO - Saving checkpoint at 40 epochs
+07/26 09:38:58 - mmengine - INFO - Epoch(val) [40][  50/1238]    eta: 0:00:15  time: 0.0128  data_time: 0.0004  memory: 9752  
+07/26 09:38:59 - mmengine - INFO - Epoch(val) [40][ 100/1238]    eta: 0:00:14  time: 0.0131  data_time: 0.0002  memory: 172  
+07/26 09:39:00 - mmengine - INFO - Epoch(val) [40][ 150/1238]    eta: 0:00:14  time: 0.0131  data_time: 0.0002  memory: 172  
+07/26 09:39:00 - mmengine - INFO - Epoch(val) [40][ 200/1238]    eta: 0:00:13  time: 0.0124  data_time: 0.0002  memory: 172  
+07/26 09:39:01 - mmengine - INFO - Epoch(val) [40][ 250/1238]    eta: 0:00:12  time: 0.0125  data_time: 0.0002  memory: 172  
+07/26 09:39:02 - mmengine - INFO - Epoch(val) [40][ 300/1238]    eta: 0:00:11  time: 0.0127  data_time: 0.0002  memory: 172  
+07/26 09:39:02 - mmengine - INFO - Epoch(val) [40][ 350/1238]    eta: 0:00:11  time: 0.0127  data_time: 0.0002  memory: 175  
+07/26 09:39:03 - mmengine - INFO - Epoch(val) [40][ 400/1238]    eta: 0:00:10  time: 0.0127  data_time: 0.0002  memory: 179  
+07/26 09:39:03 - mmengine - INFO - Epoch(val) [40][ 450/1238]    eta: 0:00:10  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:39:04 - mmengine - INFO - Epoch(val) [40][ 500/1238]    eta: 0:00:09  time: 0.0133  data_time: 0.0002  memory: 179  
+07/26 09:39:05 - mmengine - INFO - Epoch(val) [40][ 550/1238]    eta: 0:00:08  time: 0.0136  data_time: 0.0002  memory: 179  
+07/26 09:39:05 - mmengine - INFO - Epoch(val) [40][ 600/1238]    eta: 0:00:08  time: 0.0136  data_time: 0.0002  memory: 179  
+07/26 09:39:06 - mmengine - INFO - Epoch(val) [40][ 650/1238]    eta: 0:00:07  time: 0.0138  data_time: 0.0002  memory: 179  
+07/26 09:39:07 - mmengine - INFO - Epoch(val) [40][ 700/1238]    eta: 0:00:07  time: 0.0138  data_time: 0.0002  memory: 179  
+07/26 09:39:08 - mmengine - INFO - Epoch(val) [40][ 750/1238]    eta: 0:00:06  time: 0.0138  data_time: 0.0002  memory: 179  
+07/26 09:39:08 - mmengine - INFO - Epoch(val) [40][ 800/1238]    eta: 0:00:05  time: 0.0147  data_time: 0.0002  memory: 179  
+07/26 09:39:09 - mmengine - INFO - Epoch(val) [40][ 850/1238]    eta: 0:00:05  time: 0.0133  data_time: 0.0002  memory: 179  
+07/26 09:39:10 - mmengine - INFO - Epoch(val) [40][ 900/1238]    eta: 0:00:04  time: 0.0135  data_time: 0.0002  memory: 179  
+07/26 09:39:10 - mmengine - INFO - Epoch(val) [40][ 950/1238]    eta: 0:00:03  time: 0.0133  data_time: 0.0002  memory: 179  
+07/26 09:39:11 - mmengine - INFO - Epoch(val) [40][1000/1238]    eta: 0:00:03  time: 0.0124  data_time: 0.0002  memory: 185  
+07/26 09:39:12 - mmengine - INFO - Epoch(val) [40][1050/1238]    eta: 0:00:02  time: 0.0119  data_time: 0.0002  memory: 191  
+07/26 09:39:12 - mmengine - INFO - Epoch(val) [40][1100/1238]    eta: 0:00:01  time: 0.0112  data_time: 0.0002  memory: 179  
+07/26 09:39:13 - mmengine - INFO - Epoch(val) [40][1150/1238]    eta: 0:00:01  time: 0.0110  data_time: 0.0002  memory: 179  
+07/26 09:39:13 - mmengine - INFO - Epoch(val) [40][1200/1238]    eta: 0:00:00  time: 0.0110  data_time: 0.0002  memory: 175  
+07/26 09:39:19 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=1.00s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=20.43s).
+Accumulating evaluation results...
+DONE (t=7.76s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.534
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.786
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.592
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.201
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.420
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.617
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.420
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.646
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.677
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.368
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.603
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.742
+07/26 09:39:50 - mmengine - INFO - bbox_mAP_copypaste: 0.534 0.786 0.592 0.201 0.420 0.617
+07/26 09:39:50 - mmengine - INFO - Epoch(val) [40][1238/1238]    coco/bbox_mAP: 0.5340  coco/bbox_mAP_50: 0.7860  coco/bbox_mAP_75: 0.5920  coco/bbox_mAP_s: 0.2010  coco/bbox_mAP_m: 0.4200  coco/bbox_mAP_l: 0.6170  data_time: 0.0002  time: 0.0128
+07/26 09:39:50 - mmengine - INFO - The previous best checkpoint /homes/55/jindong/backdoor/work_dirs/v5/box/car_split_train/best_coco_bbox_mAP_epoch_35.pth is removed
+07/26 09:39:53 - mmengine - INFO - The best checkpoint with 0.5340 coco/bbox_mAP at 40 epoch is saved to best_coco_bbox_mAP_epoch_40.pth.
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+07/26 09:40:14 - mmengine - INFO - Epoch(train) [41][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:07:45  time: 0.3734  data_time: 0.0202  memory: 9752  loss: 3.7682  loss_cls: 0.4536  loss_obj: 1.8691  loss_bbox: 1.4456
+07/26 09:40:32 - mmengine - INFO - Epoch(train) [41][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:07:26  time: 0.3622  data_time: 0.0020  memory: 9752  loss: 3.8505  loss_cls: 0.4489  loss_obj: 1.9568  loss_bbox: 1.4448
+07/26 09:40:42 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:41:01 - mmengine - INFO - Epoch(train) [42][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:06:56  time: 0.3902  data_time: 0.0263  memory: 9752  loss: 3.7769  loss_cls: 0.4508  loss_obj: 1.9142  loss_bbox: 1.4118
+07/26 09:41:20 - mmengine - INFO - Epoch(train) [42][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:06:38  time: 0.3695  data_time: 0.0021  memory: 9752  loss: 3.7358  loss_cls: 0.4539  loss_obj: 1.8614  loss_bbox: 1.4205
+07/26 09:41:31 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:41:50 - mmengine - INFO - Epoch(train) [43][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:06:08  time: 0.3929  data_time: 0.0244  memory: 9752  loss: 3.7481  loss_cls: 0.4674  loss_obj: 1.8635  loss_bbox: 1.4172
+07/26 09:42:08 - mmengine - INFO - Epoch(train) [43][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:05:49  time: 0.3597  data_time: 0.0021  memory: 9752  loss: 3.8036  loss_cls: 0.4550  loss_obj: 1.9241  loss_bbox: 1.4245
+07/26 09:42:19 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:42:38 - mmengine - INFO - Epoch(train) [44][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:05:19  time: 0.3879  data_time: 0.0204  memory: 9752  loss: 3.8026  loss_cls: 0.4440  loss_obj: 1.9140  loss_bbox: 1.4446
+07/26 09:42:57 - mmengine - INFO - Epoch(train) [44][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:05:01  time: 0.3702  data_time: 0.0019  memory: 9752  loss: 3.7163  loss_cls: 0.4613  loss_obj: 1.8425  loss_bbox: 1.4125
+07/26 09:43:07 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:43:27 - mmengine - INFO - Epoch(train) [45][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:04:31  time: 0.3888  data_time: 0.0266  memory: 9752  loss: 3.7907  loss_cls: 0.4513  loss_obj: 1.9215  loss_bbox: 1.4179
+07/26 09:43:45 - mmengine - INFO - Epoch(train) [45][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:04:12  time: 0.3646  data_time: 0.0020  memory: 9752  loss: 3.7450  loss_cls: 0.4393  loss_obj: 1.8877  loss_bbox: 1.4180
+07/26 09:43:55 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:43:55 - mmengine - INFO - Saving checkpoint at 45 epochs
+07/26 09:43:58 - mmengine - INFO - Epoch(val) [45][  50/1238]    eta: 0:00:15  time: 0.0133  data_time: 0.0003  memory: 9752  
+07/26 09:43:59 - mmengine - INFO - Epoch(val) [45][ 100/1238]    eta: 0:00:15  time: 0.0131  data_time: 0.0002  memory: 172  
+07/26 09:43:59 - mmengine - INFO - Epoch(val) [45][ 150/1238]    eta: 0:00:14  time: 0.0138  data_time: 0.0002  memory: 172  
+07/26 09:44:00 - mmengine - INFO - Epoch(val) [45][ 200/1238]    eta: 0:00:14  time: 0.0139  data_time: 0.0002  memory: 172  
+07/26 09:44:01 - mmengine - INFO - Epoch(val) [45][ 250/1238]    eta: 0:00:13  time: 0.0138  data_time: 0.0002  memory: 172  
+07/26 09:44:02 - mmengine - INFO - Epoch(val) [45][ 300/1238]    eta: 0:00:12  time: 0.0140  data_time: 0.0002  memory: 172  
+07/26 09:44:02 - mmengine - INFO - Epoch(val) [45][ 350/1238]    eta: 0:00:12  time: 0.0135  data_time: 0.0003  memory: 175  
+07/26 09:44:03 - mmengine - INFO - Epoch(val) [45][ 400/1238]    eta: 0:00:11  time: 0.0130  data_time: 0.0002  memory: 179  
+07/26 09:44:03 - mmengine - INFO - Epoch(val) [45][ 450/1238]    eta: 0:00:10  time: 0.0127  data_time: 0.0002  memory: 179  
+07/26 09:44:04 - mmengine - INFO - Epoch(val) [45][ 500/1238]    eta: 0:00:09  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:44:05 - mmengine - INFO - Epoch(val) [45][ 550/1238]    eta: 0:00:09  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:44:05 - mmengine - INFO - Epoch(val) [45][ 600/1238]    eta: 0:00:08  time: 0.0127  data_time: 0.0002  memory: 179  
+07/26 09:44:06 - mmengine - INFO - Epoch(val) [45][ 650/1238]    eta: 0:00:07  time: 0.0127  data_time: 0.0002  memory: 179  
+07/26 09:44:07 - mmengine - INFO - Epoch(val) [45][ 700/1238]    eta: 0:00:07  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:44:07 - mmengine - INFO - Epoch(val) [45][ 750/1238]    eta: 0:00:06  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:44:08 - mmengine - INFO - Epoch(val) [45][ 800/1238]    eta: 0:00:05  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:44:09 - mmengine - INFO - Epoch(val) [45][ 850/1238]    eta: 0:00:05  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:44:09 - mmengine - INFO - Epoch(val) [45][ 900/1238]    eta: 0:00:04  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:44:10 - mmengine - INFO - Epoch(val) [45][ 950/1238]    eta: 0:00:03  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:44:11 - mmengine - INFO - Epoch(val) [45][1000/1238]    eta: 0:00:03  time: 0.0130  data_time: 0.0002  memory: 185  
+07/26 09:44:11 - mmengine - INFO - Epoch(val) [45][1050/1238]    eta: 0:00:02  time: 0.0115  data_time: 0.0002  memory: 191  
+07/26 09:44:12 - mmengine - INFO - Epoch(val) [45][1100/1238]    eta: 0:00:01  time: 0.0113  data_time: 0.0002  memory: 179  
+07/26 09:44:12 - mmengine - INFO - Epoch(val) [45][1150/1238]    eta: 0:00:01  time: 0.0113  data_time: 0.0002  memory: 179  
+07/26 09:44:13 - mmengine - INFO - Epoch(val) [45][1200/1238]    eta: 0:00:00  time: 0.0113  data_time: 0.0002  memory: 175  
+07/26 09:44:19 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.97s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=20.62s).
+Accumulating evaluation results...
+DONE (t=8.71s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.540
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.789
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.596
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.205
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.427
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.623
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.421
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.649
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.682
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.379
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.605
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.747
+07/26 09:44:51 - mmengine - INFO - bbox_mAP_copypaste: 0.540 0.789 0.596 0.205 0.427 0.623
+07/26 09:44:52 - mmengine - INFO - Epoch(val) [45][1238/1238]    coco/bbox_mAP: 0.5400  coco/bbox_mAP_50: 0.7890  coco/bbox_mAP_75: 0.5960  coco/bbox_mAP_s: 0.2050  coco/bbox_mAP_m: 0.4270  coco/bbox_mAP_l: 0.6230  data_time: 0.0002  time: 0.0128
+07/26 09:44:52 - mmengine - INFO - The previous best checkpoint /homes/55/jindong/backdoor/work_dirs/v5/box/car_split_train/best_coco_bbox_mAP_epoch_40.pth is removed
+07/26 09:44:53 - mmengine - INFO - The best checkpoint with 0.5400 coco/bbox_mAP at 45 epoch is saved to best_coco_bbox_mAP_epoch_45.pth.
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+07/26 09:45:14 - mmengine - INFO - Epoch(train) [46][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:03:43  time: 0.3835  data_time: 0.0225  memory: 9752  loss: 3.7302  loss_cls: 0.4398  loss_obj: 1.8827  loss_bbox: 1.4077
+07/26 09:45:32 - mmengine - INFO - Epoch(train) [46][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:03:24  time: 0.3612  data_time: 0.0022  memory: 9752  loss: 3.7176  loss_cls: 0.4305  loss_obj: 1.8523  loss_bbox: 1.4348
+07/26 09:45:43 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:45:51 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:46:02 - mmengine - INFO - Epoch(train) [47][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:02:54  time: 0.3898  data_time: 0.0269  memory: 9752  loss: 3.7311  loss_cls: 0.4513  loss_obj: 1.8501  loss_bbox: 1.4297
+07/26 09:46:21 - mmengine - INFO - Epoch(train) [47][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:02:36  time: 0.3702  data_time: 0.0020  memory: 9752  loss: 3.6668  loss_cls: 0.4127  loss_obj: 1.8667  loss_bbox: 1.3874
+07/26 09:46:31 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:46:51 - mmengine - INFO - Epoch(train) [48][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:02:06  time: 0.3981  data_time: 0.0221  memory: 9752  loss: 3.7357  loss_cls: 0.4354  loss_obj: 1.8771  loss_bbox: 1.4232
+07/26 09:47:09 - mmengine - INFO - Epoch(train) [48][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:01:47  time: 0.3625  data_time: 0.0020  memory: 9752  loss: 3.7808  loss_cls: 0.4362  loss_obj: 1.9302  loss_bbox: 1.4144
+07/26 09:47:19 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:47:39 - mmengine - INFO - Epoch(train) [49][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:01:18  time: 0.3898  data_time: 0.0263  memory: 9752  loss: 3.7637  loss_cls: 0.4294  loss_obj: 1.9179  loss_bbox: 1.4165
+07/26 09:47:57 - mmengine - INFO - Epoch(train) [49][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:00:59  time: 0.3583  data_time: 0.0020  memory: 9752  loss: 3.7504  loss_cls: 0.4440  loss_obj: 1.8807  loss_bbox: 1.4257
+07/26 09:48:08 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:48:27 - mmengine - INFO - Epoch(train) [50][ 50/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:00:29  time: 0.3939  data_time: 0.0272  memory: 9752  loss: 3.6676  loss_cls: 0.4205  loss_obj: 1.8395  loss_bbox: 1.4076
+07/26 09:48:45 - mmengine - INFO - Epoch(train) [50][100/130]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:00:11  time: 0.3600  data_time: 0.0019  memory: 9752  loss: 3.7099  loss_cls: 0.4289  loss_obj: 1.8857  loss_bbox: 1.3953
+07/26 09:48:56 - mmengine - INFO - Exp name: yolov5_s_train_20250726_085907
+07/26 09:48:56 - mmengine - INFO - Saving checkpoint at 50 epochs
+07/26 09:48:59 - mmengine - INFO - Epoch(val) [50][  50/1238]    eta: 0:00:15  time: 0.0129  data_time: 0.0004  memory: 9752  
+07/26 09:48:59 - mmengine - INFO - Epoch(val) [50][ 100/1238]    eta: 0:00:14  time: 0.0130  data_time: 0.0002  memory: 172  
+07/26 09:49:00 - mmengine - INFO - Epoch(val) [50][ 150/1238]    eta: 0:00:14  time: 0.0128  data_time: 0.0002  memory: 172  
+07/26 09:49:01 - mmengine - INFO - Epoch(val) [50][ 200/1238]    eta: 0:00:13  time: 0.0130  data_time: 0.0002  memory: 172  
+07/26 09:49:01 - mmengine - INFO - Epoch(val) [50][ 250/1238]    eta: 0:00:12  time: 0.0131  data_time: 0.0002  memory: 172  
+07/26 09:49:02 - mmengine - INFO - Epoch(val) [50][ 300/1238]    eta: 0:00:12  time: 0.0131  data_time: 0.0002  memory: 172  
+07/26 09:49:03 - mmengine - INFO - Epoch(val) [50][ 350/1238]    eta: 0:00:11  time: 0.0132  data_time: 0.0002  memory: 175  
+07/26 09:49:03 - mmengine - INFO - Epoch(val) [50][ 400/1238]    eta: 0:00:10  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:49:04 - mmengine - INFO - Epoch(val) [50][ 450/1238]    eta: 0:00:10  time: 0.0128  data_time: 0.0002  memory: 179  
+07/26 09:49:05 - mmengine - INFO - Epoch(val) [50][ 500/1238]    eta: 0:00:09  time: 0.0127  data_time: 0.0002  memory: 179  
+07/26 09:49:05 - mmengine - INFO - Epoch(val) [50][ 550/1238]    eta: 0:00:08  time: 0.0135  data_time: 0.0002  memory: 179  
+07/26 09:49:06 - mmengine - INFO - Epoch(val) [50][ 600/1238]    eta: 0:00:08  time: 0.0132  data_time: 0.0002  memory: 179  
+07/26 09:49:07 - mmengine - INFO - Epoch(val) [50][ 650/1238]    eta: 0:00:07  time: 0.0133  data_time: 0.0002  memory: 179  
+07/26 09:49:07 - mmengine - INFO - Epoch(val) [50][ 700/1238]    eta: 0:00:07  time: 0.0134  data_time: 0.0002  memory: 179  
+07/26 09:49:08 - mmengine - INFO - Epoch(val) [50][ 750/1238]    eta: 0:00:06  time: 0.0134  data_time: 0.0002  memory: 179  
+07/26 09:49:09 - mmengine - INFO - Epoch(val) [50][ 800/1238]    eta: 0:00:05  time: 0.0134  data_time: 0.0002  memory: 179  
+07/26 09:49:09 - mmengine - INFO - Epoch(val) [50][ 850/1238]    eta: 0:00:05  time: 0.0134  data_time: 0.0002  memory: 179  
+07/26 09:49:10 - mmengine - INFO - Epoch(val) [50][ 900/1238]    eta: 0:00:04  time: 0.0132  data_time: 0.0002  memory: 179  
+07/26 09:49:11 - mmengine - INFO - Epoch(val) [50][ 950/1238]    eta: 0:00:03  time: 0.0129  data_time: 0.0002  memory: 179  
+07/26 09:49:11 - mmengine - INFO - Epoch(val) [50][1000/1238]    eta: 0:00:03  time: 0.0129  data_time: 0.0002  memory: 185  
+07/26 09:49:12 - mmengine - INFO - Epoch(val) [50][1050/1238]    eta: 0:00:02  time: 0.0126  data_time: 0.0002  memory: 191  
+07/26 09:49:12 - mmengine - INFO - Epoch(val) [50][1100/1238]    eta: 0:00:01  time: 0.0114  data_time: 0.0002  memory: 179  
+07/26 09:49:13 - mmengine - INFO - Epoch(val) [50][1150/1238]    eta: 0:00:01  time: 0.0114  data_time: 0.0002  memory: 179  
+07/26 09:49:14 - mmengine - INFO - Epoch(val) [50][1200/1238]    eta: 0:00:00  time: 0.0115  data_time: 0.0002  memory: 175  
+07/26 09:49:19 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=1.03s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=20.20s).
+Accumulating evaluation results...
+DONE (t=7.68s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.543
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.793
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.599
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.208
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.425
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.625
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.427
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.650
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.680
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.376
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.600
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.746
+07/26 09:49:50 - mmengine - INFO - bbox_mAP_copypaste: 0.543 0.793 0.599 0.208 0.425 0.625
+07/26 09:49:51 - mmengine - INFO - Epoch(val) [50][1238/1238]    coco/bbox_mAP: 0.5430  coco/bbox_mAP_50: 0.7930  coco/bbox_mAP_75: 0.5990  coco/bbox_mAP_s: 0.2080  coco/bbox_mAP_m: 0.4250  coco/bbox_mAP_l: 0.6250  data_time: 0.0002  time: 0.0128
+07/26 09:49:51 - mmengine - INFO - The previous best checkpoint /homes/55/jindong/backdoor/work_dirs/v5/box/car_split_train/best_coco_bbox_mAP_epoch_45.pth is removed
+07/26 09:49:52 - mmengine - INFO - The best checkpoint with 0.5430 coco/bbox_mAP at 50 epoch is saved to best_coco_bbox_mAP_epoch_50.pth.

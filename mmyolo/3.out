@@ -1,0 +1,1650 @@
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/launch.py:180: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+WARNING:torch.distributed.run:
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+INFO:albumentations.check_version:A new version of Albumentations is available: 2.0.8 (you have 1.4.8). Upgrade using: pip install --upgrade albumentations
+INFO:albumentations.check_version:A new version of Albumentations is available: 2.0.8 (you have 1.4.8). Upgrade using: pip install --upgrade albumentations
+INFO:albumentations.check_version:A new version of Albumentations is available: 2.0.8 (you have 1.4.8). Upgrade using: pip install --upgrade albumentations
+INFO:albumentations.check_version:A new version of Albumentations is available: 2.0.8 (you have 1.4.8). Upgrade using: pip install --upgrade albumentations
+INFO:albumentations.check_version:A new version of Albumentations is available: 2.0.8 (you have 1.4.8). Upgrade using: pip install --upgrade albumentations
+INFO:albumentations.check_version:A new version of Albumentations is available: 2.0.8 (you have 1.4.8). Upgrade using: pip install --upgrade albumentations
+INFO:albumentations.check_version:A new version of Albumentations is available: 2.0.8 (you have 1.4.8). Upgrade using: pip install --upgrade albumentations
+INFO:albumentations.check_version:A new version of Albumentations is available: 2.0.8 (you have 1.4.8). Upgrade using: pip install --upgrade albumentations
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/mmengine/utils/dl_utils/setup_env.py:56: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/mmengine/utils/dl_utils/setup_env.py:56: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/mmengine/utils/dl_utils/setup_env.py:56: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  warnings.warn(
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 1
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 4
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 3
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/mmengine/utils/dl_utils/setup_env.py:56: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/mmengine/utils/dl_utils/setup_env.py:56: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/mmengine/utils/dl_utils/setup_env.py:56: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/mmengine/utils/dl_utils/setup_env.py:56: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/mmengine/utils/dl_utils/setup_env.py:56: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  warnings.warn(
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 0
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 6
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 5
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 2
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 7
+INFO:torch.distributed.distributed_c10d:Rank 7: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+INFO:torch.distributed.distributed_c10d:Rank 6: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+INFO:torch.distributed.distributed_c10d:Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+INFO:torch.distributed.distributed_c10d:Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+INFO:torch.distributed.distributed_c10d:Rank 4: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+INFO:torch.distributed.distributed_c10d:Rank 3: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+INFO:torch.distributed.distributed_c10d:Rank 5: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+INFO:torch.distributed.distributed_c10d:Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+07/28 13:54:13 - mmengine - WARNING - Failed to search registry with scope "mmyolo" in the "log_processor" registry tree. As a workaround, the current "log_processor" registry in "mmengine" is used to build instance. This may cause unexpected failure when running the built modules. Please check whether "mmyolo" is a correct scope, or whether the registry is initialized.
+07/28 13:54:14 - mmengine - INFO - 
+------------------------------------------------------------
+System environment:
+    sys.platform: linux
+    Python: 3.9.19 (main, May  6 2024, 19:43:03) [GCC 11.2.0]
+    CUDA available: True
+    MUSA available: False
+    numpy_random_seed: 1063928653
+    GPU 0,1,2,3,4,5,6,7: Quadro RTX 6000
+    CUDA_HOME: /usr/local/cuda
+    NVCC: Cuda compilation tools, release 12.1, V12.1.105
+    GCC: gcc (GCC) 8.3.1 20190507 (Red Hat 8.3.1-4)
+    PyTorch: 1.13.0+cu117
+    PyTorch compiling details: PyTorch built with:
+  - GCC 9.3
+  - C++ Version: 201402
+  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v2.6.0 (Git Hash 52b5f107dd9cf10910aaa19cb47f3abf9b349815)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - LAPACK is enabled (usually provided by MKL)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - CUDA Runtime 11.7
+  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86
+  - CuDNN 8.5
+  - Magma 2.6.1
+  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=11.7, CUDNN_VERSION=8.5.0, CXX_COMPILER=/opt/rh/devtoolset-9/root/usr/bin/c++, CXX_FLAGS= -fabi-version=11 -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_KINETO -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -DEDGE_PROFILER_USE_KINETO -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wunused-local-typedefs -Wno-unused-parameter -Wno-unused-function -Wno-unused-result -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Werror=cast-function-type -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=1.13.0, USE_CUDA=ON, USE_CUDNN=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, 
+
+    TorchVision: 0.14.0+cu117
+    OpenCV: 4.10.0
+    MMEngine: 0.10.4
+
+Runtime environment:
+    cudnn_benchmark: True
+    mp_cfg: {'mp_start_method': 'fork', 'opencv_num_threads': 0}
+    dist_cfg: {'backend': 'nccl'}
+    seed: 1063928653
+    Distributed launcher: pytorch
+    Distributed training: True
+    GPU number: 8
+------------------------------------------------------------
+
+07/28 13:54:16 - mmengine - INFO - Config:
+CLASSES = (
+    'aeroplane',
+    'bicycle',
+    'bird',
+    'boat',
+    'bottle',
+    'bus',
+    'car',
+    'cat',
+    'chair',
+    'cow',
+    'diningtable',
+    'dog',
+    'horse',
+    'motorbike',
+    'person',
+    'pottedplant',
+    'sheep',
+    'sofa',
+    'train',
+    'tvmonitor',
+)
+_backend_args = None
+_multiscale_resize_transforms = [
+    dict(
+        transforms=[
+            dict(scale=(
+                512,
+                512,
+            ), type='YOLOv5KeepRatioResize'),
+            dict(
+                allow_scale_up=False,
+                pad_val=dict(img=114),
+                scale=(
+                    512,
+                    512,
+                ),
+                type='LetterResize'),
+        ],
+        type='Compose'),
+    dict(
+        transforms=[
+            dict(scale=(
+                416,
+                416,
+            ), type='YOLOv5KeepRatioResize'),
+            dict(
+                allow_scale_up=False,
+                pad_val=dict(img=114),
+                scale=(
+                    416,
+                    416,
+                ),
+                type='LetterResize'),
+        ],
+        type='Compose'),
+    dict(
+        transforms=[
+            dict(scale=(
+                640,
+                640,
+            ), type='YOLOv5KeepRatioResize'),
+            dict(
+                allow_scale_up=False,
+                pad_val=dict(img=114),
+                scale=(
+                    640,
+                    640,
+                ),
+                type='LetterResize'),
+        ],
+        type='Compose'),
+]
+affine_scale = 0.5
+albu_train_transforms = [
+    dict(p=0.01, type='Blur'),
+    dict(p=0.01, type='MedianBlur'),
+    dict(p=0.01, type='ToGray'),
+    dict(p=0.01, type='CLAHE'),
+]
+anchors = [
+    [
+        (
+            26,
+            44,
+        ),
+        (
+            67,
+            57,
+        ),
+        (
+            61,
+            130,
+        ),
+    ],
+    [
+        (
+            121,
+            118,
+        ),
+        (
+            120,
+            239,
+        ),
+        (
+            206,
+            182,
+        ),
+    ],
+    [
+        (
+            376,
+            161,
+        ),
+        (
+            234,
+            324,
+        ),
+        (
+            428,
+            322,
+        ),
+    ],
+]
+backend_args = None
+base_lr = 0.01
+batch_shapes_cfg = dict(
+    batch_size=1,
+    extra_pad_ratio=0.5,
+    img_size=512,
+    size_divisor=32,
+    type='BatchShapePolicy')
+custom_hooks = [
+    dict(
+        ema_type='ExpMomentumEMA',
+        momentum=0.0001,
+        priority=49,
+        strict_load=False,
+        type='EMAHook',
+        update_buffers=True),
+]
+data_root = '/homes/55/jindong/backdoor/data/VOCdevkit/'
+dataset_type = 'YOLOv5CocoDataset'
+deepen_factor = 0.33
+default_hooks = dict(
+    checkpoint=dict(interval=30, save_best='auto', type='CheckpointHook'),
+    logger=dict(interval=50, type='LoggerHook'),
+    param_scheduler=dict(type='ParamSchedulerHook'),
+    sampler_seed=dict(type='DistSamplerSeedHook'),
+    timer=dict(type='IterTimerHook'),
+    visualization=dict(type='mmdet.DetVisualizationHook'))
+default_scope = 'mmyolo'
+env_cfg = dict(
+    cudnn_benchmark=True,
+    dist_cfg=dict(backend='nccl'),
+    mp_cfg=dict(mp_start_method='fork', opencv_num_threads=0))
+img_scale = (
+    512,
+    512,
+)
+img_scales = [
+    (
+        640,
+        640,
+    ),
+    (
+        320,
+        320,
+    ),
+    (
+        960,
+        960,
+    ),
+]
+launcher = 'pytorch'
+load_from = '/homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth'
+log_level = 'INFO'
+log_processor = dict(by_epoch=True, type='LogProcessor', window_size=50)
+loss_bbox_weight = 0.05
+loss_cls_weight = 0.5
+loss_obj_weight = 1.0
+lr_factor = 0.01
+max_epochs = 30
+max_keep_ckpts = 3
+model = dict(
+    backbone=dict(
+        act_cfg=dict(inplace=True, type='SiLU'),
+        deepen_factor=0.33,
+        norm_cfg=dict(eps=0.001, momentum=0.03, type='BN'),
+        type='YOLOv5CSPDarknet',
+        widen_factor=0.5),
+    bbox_head=dict(
+        head_module=dict(
+            featmap_strides=[
+                8,
+                16,
+                32,
+            ],
+            in_channels=[
+                256,
+                512,
+                1024,
+            ],
+            num_base_priors=3,
+            num_classes=20,
+            type='YOLOv5HeadModule',
+            widen_factor=0.5),
+        loss_bbox=dict(
+            bbox_format='xywh',
+            eps=1e-07,
+            iou_mode='ciou',
+            loss_weight=0.02,
+            reduction='mean',
+            return_iou=True,
+            type='IoULoss'),
+        loss_cls=dict(
+            class_weight=0.5,
+            loss_weight=0.054095,
+            reduction='mean',
+            type='mmdet.CrossEntropyLoss',
+            use_sigmoid=True),
+        loss_obj=dict(
+            class_weight=0.67198,
+            loss_weight=0.33105920000000005,
+            reduction='mean',
+            type='mmdet.CrossEntropyLoss',
+            use_sigmoid=True),
+        obj_level_weights=[
+            4.0,
+            1.0,
+            0.4,
+        ],
+        prior_generator=dict(
+            base_sizes=[
+                [
+                    (
+                        26,
+                        44,
+                    ),
+                    (
+                        67,
+                        57,
+                    ),
+                    (
+                        61,
+                        130,
+                    ),
+                ],
+                [
+                    (
+                        121,
+                        118,
+                    ),
+                    (
+                        120,
+                        239,
+                    ),
+                    (
+                        206,
+                        182,
+                    ),
+                ],
+                [
+                    (
+                        376,
+                        161,
+                    ),
+                    (
+                        234,
+                        324,
+                    ),
+                    (
+                        428,
+                        322,
+                    ),
+                ],
+            ],
+            strides=[
+                8,
+                16,
+                32,
+            ],
+            type='mmdet.YOLOAnchorGenerator'),
+        prior_match_thr=3.3744,
+        type='YOLOv5Head'),
+    data_preprocessor=dict(
+        bgr_to_rgb=True,
+        mean=[
+            0.0,
+            0.0,
+            0.0,
+        ],
+        std=[
+            255.0,
+            255.0,
+            255.0,
+        ],
+        type='mmdet.DetDataPreprocessor'),
+    neck=dict(
+        act_cfg=dict(inplace=True, type='SiLU'),
+        deepen_factor=0.33,
+        in_channels=[
+            256,
+            512,
+            1024,
+        ],
+        norm_cfg=dict(eps=0.001, momentum=0.03, type='BN'),
+        num_csp_blocks=3,
+        out_channels=[
+            256,
+            512,
+            1024,
+        ],
+        type='YOLOv5PAFPN',
+        widen_factor=0.5),
+    test_cfg=dict(
+        max_per_img=300,
+        multi_label=True,
+        nms=dict(iou_threshold=0.65, type='nms'),
+        nms_pre=30000,
+        score_thr=0.001),
+    type='YOLODetector')
+model_test_cfg = dict(
+    max_per_img=300,
+    multi_label=True,
+    nms=dict(iou_threshold=0.65, type='nms'),
+    nms_pre=30000,
+    score_thr=0.001)
+norm_cfg = dict(eps=0.001, momentum=0.03, type='BN')
+num_classes = 20
+num_det_layers = 3
+obj_level_weights = [
+    4.0,
+    1.0,
+    0.4,
+]
+optim_wrapper = dict(
+    constructor='YOLOv5OptimizerConstructor',
+    optimizer=dict(
+        batch_size_per_gpu=64,
+        lr=0.02,
+        momentum=0.74832,
+        nesterov=True,
+        type='SGD',
+        weight_decay=0.00025),
+    type='OptimWrapper')
+param_scheduler = None
+persistent_workers = True
+pre_transform = [
+    dict(backend_args=None, type='LoadImageFromFile'),
+    dict(type='LoadAnnotations', with_bbox=True),
+]
+prior_match_thr = 4.0
+randchoice_mosaic_pipeline = dict(
+    prob=[
+        0.85834,
+        0.14166,
+    ],
+    transforms=[
+        [
+            dict(
+                img_scale=(
+                    512,
+                    512,
+                ),
+                pad_val=114.0,
+                pre_transform=[
+                    dict(backend_args=None, type='LoadImageFromFile'),
+                    dict(type='LoadAnnotations', with_bbox=True),
+                ],
+                type='Mosaic'),
+            dict(
+                border=(
+                    -256,
+                    -256,
+                ),
+                border_val=(
+                    114,
+                    114,
+                    114,
+                ),
+                max_rotate_degree=0.0,
+                max_shear_degree=0.0,
+                max_translate_ratio=0.04591,
+                scaling_ratio_range=(
+                    0.5,
+                    1.5,
+                ),
+                type='YOLOv5RandomAffine'),
+            dict(
+                pre_transform=[
+                    dict(backend_args=None, type='LoadImageFromFile'),
+                    dict(type='LoadAnnotations', with_bbox=True),
+                    dict(
+                        img_scale=(
+                            512,
+                            512,
+                        ),
+                        pad_val=114.0,
+                        pre_transform=[
+                            dict(backend_args=None, type='LoadImageFromFile'),
+                            dict(type='LoadAnnotations', with_bbox=True),
+                        ],
+                        type='Mosaic'),
+                    dict(
+                        border=(
+                            -256,
+                            -256,
+                        ),
+                        border_val=(
+                            114,
+                            114,
+                            114,
+                        ),
+                        max_rotate_degree=0.0,
+                        max_shear_degree=0.0,
+                        max_translate_ratio=0.04591,
+                        scaling_ratio_range=(
+                            0.5,
+                            1.5,
+                        ),
+                        type='YOLOv5RandomAffine'),
+                ],
+                prob=0.04266,
+                type='YOLOv5MixUp'),
+        ],
+        [
+            dict(
+                border=(
+                    0,
+                    0,
+                ),
+                border_val=(
+                    114,
+                    114,
+                    114,
+                ),
+                max_rotate_degree=0.0,
+                max_shear_degree=0.0,
+                max_translate_ratio=0.04591,
+                scaling_ratio_range=(
+                    0.5,
+                    1.5,
+                ),
+                type='YOLOv5RandomAffine'),
+            dict(
+                allow_scale_up=True,
+                pad_val=dict(img=114),
+                scale=(
+                    512,
+                    512,
+                ),
+                type='LetterResize'),
+        ],
+    ],
+    type='RandomChoice')
+resume = False
+save_checkpoint_intervals = 30
+strides = [
+    8,
+    16,
+    32,
+]
+test_cfg = dict(type='TestLoop')
+test_dataloader = dict(
+    batch_size=1,
+    dataset=dict(
+        ann_file='annotations/test_07.json',
+        batch_shapes_cfg=dict(
+            batch_size=1,
+            extra_pad_ratio=0.5,
+            img_size=512,
+            size_divisor=32,
+            type='BatchShapePolicy'),
+        data_prefix=dict(img='test/'),
+        data_root='/homes/55/jindong/backdoor/data/VOCdevkit/',
+        metainfo=dict(
+            classes=(
+                'aeroplane',
+                'bicycle',
+                'bird',
+                'boat',
+                'bottle',
+                'bus',
+                'car',
+                'cat',
+                'chair',
+                'cow',
+                'diningtable',
+                'dog',
+                'horse',
+                'motorbike',
+                'person',
+                'pottedplant',
+                'sheep',
+                'sofa',
+                'train',
+                'tvmonitor',
+            )),
+        pipeline=[
+            dict(backend_args=None, type='LoadImageFromFile'),
+            dict(scale=(
+                512,
+                512,
+            ), type='YOLOv5KeepRatioResize'),
+            dict(
+                allow_scale_up=False,
+                pad_val=dict(img=114),
+                scale=(
+                    512,
+                    512,
+                ),
+                type='LetterResize'),
+            dict(_scope_='mmdet', type='LoadAnnotations', with_bbox=True),
+            dict(
+                meta_keys=(
+                    'img_id',
+                    'img_path',
+                    'ori_shape',
+                    'img_shape',
+                    'scale_factor',
+                    'pad_param',
+                ),
+                type='mmdet.PackDetInputs'),
+        ],
+        test_mode=True,
+        type='YOLOv5CocoDataset'),
+    drop_last=False,
+    num_workers=2,
+    persistent_workers=True,
+    pin_memory=True,
+    sampler=dict(shuffle=False, type='DefaultSampler'))
+test_evaluator = dict(
+    ann_file=
+    '/homes/55/jindong/backdoor/data/VOCdevkit/annotations/test_07.json',
+    metric='bbox',
+    proposal_nums=(
+        100,
+        1,
+        10,
+    ),
+    type='mmdet.CocoMetric')
+test_pipeline = [
+    dict(backend_args=None, type='LoadImageFromFile'),
+    dict(scale=(
+        512,
+        512,
+    ), type='YOLOv5KeepRatioResize'),
+    dict(
+        allow_scale_up=False,
+        pad_val=dict(img=114),
+        scale=(
+            512,
+            512,
+        ),
+        type='LetterResize'),
+    dict(_scope_='mmdet', type='LoadAnnotations', with_bbox=True),
+    dict(
+        meta_keys=(
+            'img_id',
+            'img_path',
+            'ori_shape',
+            'img_shape',
+            'scale_factor',
+            'pad_param',
+        ),
+        type='mmdet.PackDetInputs'),
+]
+train_ann_file = 'annotations/clip_300_select.json'
+train_batch_size_per_gpu = 64
+train_cfg = dict(max_epochs=30, type='EpochBasedTrainLoop', val_interval=30)
+train_data_prefix = 'trainval/'
+train_dataloader = dict(
+    batch_size=64,
+    dataset=dict(
+        ann_file='annotations/clip_300_select.json',
+        data_prefix=dict(img='trainval/'),
+        data_root='/homes/55/jindong/backdoor/data/VOCdevkit/',
+        filter_cfg=dict(filter_empty_gt=False, min_size=32),
+        metainfo=dict(
+            classes=(
+                'aeroplane',
+                'bicycle',
+                'bird',
+                'boat',
+                'bottle',
+                'bus',
+                'car',
+                'cat',
+                'chair',
+                'cow',
+                'diningtable',
+                'dog',
+                'horse',
+                'motorbike',
+                'person',
+                'pottedplant',
+                'sheep',
+                'sofa',
+                'train',
+                'tvmonitor',
+            )),
+        pipeline=[
+            dict(backend_args=None, type='LoadImageFromFile'),
+            dict(type='LoadAnnotations', with_bbox=True),
+            dict(
+                prob=[
+                    0.85834,
+                    0.14166,
+                ],
+                transforms=[
+                    [
+                        dict(
+                            img_scale=(
+                                512,
+                                512,
+                            ),
+                            pad_val=114.0,
+                            pre_transform=[
+                                dict(
+                                    backend_args=None,
+                                    type='LoadImageFromFile'),
+                                dict(type='LoadAnnotations', with_bbox=True),
+                            ],
+                            type='Mosaic'),
+                        dict(
+                            border=(
+                                -256,
+                                -256,
+                            ),
+                            border_val=(
+                                114,
+                                114,
+                                114,
+                            ),
+                            max_rotate_degree=0.0,
+                            max_shear_degree=0.0,
+                            max_translate_ratio=0.04591,
+                            scaling_ratio_range=(
+                                0.5,
+                                1.5,
+                            ),
+                            type='YOLOv5RandomAffine'),
+                        dict(
+                            pre_transform=[
+                                dict(
+                                    backend_args=None,
+                                    type='LoadImageFromFile'),
+                                dict(type='LoadAnnotations', with_bbox=True),
+                                dict(
+                                    img_scale=(
+                                        512,
+                                        512,
+                                    ),
+                                    pad_val=114.0,
+                                    pre_transform=[
+                                        dict(
+                                            backend_args=None,
+                                            type='LoadImageFromFile'),
+                                        dict(
+                                            type='LoadAnnotations',
+                                            with_bbox=True),
+                                    ],
+                                    type='Mosaic'),
+                                dict(
+                                    border=(
+                                        -256,
+                                        -256,
+                                    ),
+                                    border_val=(
+                                        114,
+                                        114,
+                                        114,
+                                    ),
+                                    max_rotate_degree=0.0,
+                                    max_shear_degree=0.0,
+                                    max_translate_ratio=0.04591,
+                                    scaling_ratio_range=(
+                                        0.5,
+                                        1.5,
+                                    ),
+                                    type='YOLOv5RandomAffine'),
+                            ],
+                            prob=0.04266,
+                            type='YOLOv5MixUp'),
+                    ],
+                    [
+                        dict(
+                            border=(
+                                0,
+                                0,
+                            ),
+                            border_val=(
+                                114,
+                                114,
+                                114,
+                            ),
+                            max_rotate_degree=0.0,
+                            max_shear_degree=0.0,
+                            max_translate_ratio=0.04591,
+                            scaling_ratio_range=(
+                                0.5,
+                                1.5,
+                            ),
+                            type='YOLOv5RandomAffine'),
+                        dict(
+                            allow_scale_up=True,
+                            pad_val=dict(img=114),
+                            scale=(
+                                512,
+                                512,
+                            ),
+                            type='LetterResize'),
+                    ],
+                ],
+                type='RandomChoice'),
+            dict(
+                bbox_params=dict(
+                    format='pascal_voc',
+                    label_fields=[
+                        'gt_bboxes_labels',
+                        'gt_ignore_flags',
+                    ],
+                    type='BboxParams'),
+                keymap=dict(gt_bboxes='bboxes', img='image'),
+                transforms=[
+                    dict(p=0.01, type='Blur'),
+                    dict(p=0.01, type='MedianBlur'),
+                    dict(p=0.01, type='ToGray'),
+                    dict(p=0.01, type='CLAHE'),
+                ],
+                type='mmdet.Albu'),
+            dict(
+                hue_delta=0.01041,
+                saturation_delta=0.54703,
+                type='YOLOv5HSVRandomAug',
+                value_delta=0.27739),
+            dict(prob=0.5, type='mmdet.RandomFlip'),
+            dict(
+                meta_keys=(
+                    'img_id',
+                    'img_path',
+                    'ori_shape',
+                    'img_shape',
+                    'flip',
+                    'flip_direction',
+                ),
+                type='mmdet.PackDetInputs'),
+        ],
+        type='YOLOv5CocoDataset'),
+    num_workers=8,
+    persistent_workers=True,
+    pin_memory=True,
+    sampler=dict(shuffle=True, type='DefaultSampler'))
+train_num_workers = 8
+train_pipeline = [
+    dict(backend_args=None, type='LoadImageFromFile'),
+    dict(type='LoadAnnotations', with_bbox=True),
+    dict(
+        prob=[
+            0.85834,
+            0.14166,
+        ],
+        transforms=[
+            [
+                dict(
+                    img_scale=(
+                        512,
+                        512,
+                    ),
+                    pad_val=114.0,
+                    pre_transform=[
+                        dict(backend_args=None, type='LoadImageFromFile'),
+                        dict(type='LoadAnnotations', with_bbox=True),
+                    ],
+                    type='Mosaic'),
+                dict(
+                    border=(
+                        -256,
+                        -256,
+                    ),
+                    border_val=(
+                        114,
+                        114,
+                        114,
+                    ),
+                    max_rotate_degree=0.0,
+                    max_shear_degree=0.0,
+                    max_translate_ratio=0.04591,
+                    scaling_ratio_range=(
+                        0.5,
+                        1.5,
+                    ),
+                    type='YOLOv5RandomAffine'),
+                dict(
+                    pre_transform=[
+                        dict(backend_args=None, type='LoadImageFromFile'),
+                        dict(type='LoadAnnotations', with_bbox=True),
+                        dict(
+                            img_scale=(
+                                512,
+                                512,
+                            ),
+                            pad_val=114.0,
+                            pre_transform=[
+                                dict(
+                                    backend_args=None,
+                                    type='LoadImageFromFile'),
+                                dict(type='LoadAnnotations', with_bbox=True),
+                            ],
+                            type='Mosaic'),
+                        dict(
+                            border=(
+                                -256,
+                                -256,
+                            ),
+                            border_val=(
+                                114,
+                                114,
+                                114,
+                            ),
+                            max_rotate_degree=0.0,
+                            max_shear_degree=0.0,
+                            max_translate_ratio=0.04591,
+                            scaling_ratio_range=(
+                                0.5,
+                                1.5,
+                            ),
+                            type='YOLOv5RandomAffine'),
+                    ],
+                    prob=0.04266,
+                    type='YOLOv5MixUp'),
+            ],
+            [
+                dict(
+                    border=(
+                        0,
+                        0,
+                    ),
+                    border_val=(
+                        114,
+                        114,
+                        114,
+                    ),
+                    max_rotate_degree=0.0,
+                    max_shear_degree=0.0,
+                    max_translate_ratio=0.04591,
+                    scaling_ratio_range=(
+                        0.5,
+                        1.5,
+                    ),
+                    type='YOLOv5RandomAffine'),
+                dict(
+                    allow_scale_up=True,
+                    pad_val=dict(img=114),
+                    scale=(
+                        512,
+                        512,
+                    ),
+                    type='LetterResize'),
+            ],
+        ],
+        type='RandomChoice'),
+    dict(
+        bbox_params=dict(
+            format='pascal_voc',
+            label_fields=[
+                'gt_bboxes_labels',
+                'gt_ignore_flags',
+            ],
+            type='BboxParams'),
+        keymap=dict(gt_bboxes='bboxes', img='image'),
+        transforms=[
+            dict(p=0.01, type='Blur'),
+            dict(p=0.01, type='MedianBlur'),
+            dict(p=0.01, type='ToGray'),
+            dict(p=0.01, type='CLAHE'),
+        ],
+        type='mmdet.Albu'),
+    dict(
+        hue_delta=0.01041,
+        saturation_delta=0.54703,
+        type='YOLOv5HSVRandomAug',
+        value_delta=0.27739),
+    dict(prob=0.5, type='mmdet.RandomFlip'),
+    dict(
+        meta_keys=(
+            'img_id',
+            'img_path',
+            'ori_shape',
+            'img_shape',
+            'flip',
+            'flip_direction',
+        ),
+        type='mmdet.PackDetInputs'),
+]
+tta_img_scales = [
+    (
+        512,
+        512,
+    ),
+    (
+        416,
+        416,
+    ),
+    (
+        640,
+        640,
+    ),
+]
+tta_model = dict(
+    tta_cfg=dict(max_per_img=300, nms=dict(iou_threshold=0.65, type='nms')),
+    type='mmdet.DetTTAModel')
+tta_pipeline = [
+    dict(backend_args=None, type='LoadImageFromFile'),
+    dict(
+        transforms=[
+            [
+                dict(
+                    transforms=[
+                        dict(scale=(
+                            512,
+                            512,
+                        ), type='YOLOv5KeepRatioResize'),
+                        dict(
+                            allow_scale_up=False,
+                            pad_val=dict(img=114),
+                            scale=(
+                                512,
+                                512,
+                            ),
+                            type='LetterResize'),
+                    ],
+                    type='Compose'),
+                dict(
+                    transforms=[
+                        dict(scale=(
+                            416,
+                            416,
+                        ), type='YOLOv5KeepRatioResize'),
+                        dict(
+                            allow_scale_up=False,
+                            pad_val=dict(img=114),
+                            scale=(
+                                416,
+                                416,
+                            ),
+                            type='LetterResize'),
+                    ],
+                    type='Compose'),
+                dict(
+                    transforms=[
+                        dict(scale=(
+                            640,
+                            640,
+                        ), type='YOLOv5KeepRatioResize'),
+                        dict(
+                            allow_scale_up=False,
+                            pad_val=dict(img=114),
+                            scale=(
+                                640,
+                                640,
+                            ),
+                            type='LetterResize'),
+                    ],
+                    type='Compose'),
+            ],
+            [
+                dict(prob=1.0, type='mmdet.RandomFlip'),
+                dict(prob=0.0, type='mmdet.RandomFlip'),
+            ],
+            [
+                dict(type='mmdet.LoadAnnotations', with_bbox=True),
+            ],
+            [
+                dict(
+                    meta_keys=(
+                        'img_id',
+                        'img_path',
+                        'ori_shape',
+                        'img_shape',
+                        'scale_factor',
+                        'pad_param',
+                        'flip',
+                        'flip_direction',
+                    ),
+                    type='mmdet.PackDetInputs'),
+            ],
+        ],
+        type='TestTimeAug'),
+]
+val_ann_file = 'annotations/test_07.json'
+val_batch_size_per_gpu = 1
+val_cfg = dict(type='ValLoop')
+val_data_prefix = 'test/'
+val_dataloader = dict(
+    batch_size=1,
+    dataset=dict(
+        ann_file='annotations/test_07.json',
+        batch_shapes_cfg=dict(
+            batch_size=1,
+            extra_pad_ratio=0.5,
+            img_size=512,
+            size_divisor=32,
+            type='BatchShapePolicy'),
+        data_prefix=dict(img='test/'),
+        data_root='/homes/55/jindong/backdoor/data/VOCdevkit/',
+        metainfo=dict(
+            classes=(
+                'aeroplane',
+                'bicycle',
+                'bird',
+                'boat',
+                'bottle',
+                'bus',
+                'car',
+                'cat',
+                'chair',
+                'cow',
+                'diningtable',
+                'dog',
+                'horse',
+                'motorbike',
+                'person',
+                'pottedplant',
+                'sheep',
+                'sofa',
+                'train',
+                'tvmonitor',
+            )),
+        pipeline=[
+            dict(backend_args=None, type='LoadImageFromFile'),
+            dict(scale=(
+                512,
+                512,
+            ), type='YOLOv5KeepRatioResize'),
+            dict(
+                allow_scale_up=False,
+                pad_val=dict(img=114),
+                scale=(
+                    512,
+                    512,
+                ),
+                type='LetterResize'),
+            dict(_scope_='mmdet', type='LoadAnnotations', with_bbox=True),
+            dict(
+                meta_keys=(
+                    'img_id',
+                    'img_path',
+                    'ori_shape',
+                    'img_shape',
+                    'scale_factor',
+                    'pad_param',
+                ),
+                type='mmdet.PackDetInputs'),
+        ],
+        test_mode=True,
+        type='YOLOv5CocoDataset'),
+    drop_last=False,
+    num_workers=2,
+    persistent_workers=True,
+    pin_memory=True,
+    sampler=dict(shuffle=False, type='DefaultSampler'))
+val_evaluator = dict(
+    ann_file=
+    '/homes/55/jindong/backdoor/data/VOCdevkit/annotations/test_07.json',
+    metric='bbox',
+    proposal_nums=(
+        100,
+        1,
+        10,
+    ),
+    type='mmdet.CocoMetric')
+val_num_workers = 2
+vis_backends = [
+    dict(type='LocalVisBackend'),
+]
+visualizer = dict(
+    name='visualizer',
+    type='mmdet.DetLocalVisualizer',
+    vis_backends=[
+        dict(type='LocalVisBackend'),
+    ])
+weight_decay = 0.0005
+widen_factor = 0.5
+with_mosiac_pipeline = [
+    dict(
+        img_scale=(
+            512,
+            512,
+        ),
+        pad_val=114.0,
+        pre_transform=[
+            dict(backend_args=None, type='LoadImageFromFile'),
+            dict(type='LoadAnnotations', with_bbox=True),
+        ],
+        type='Mosaic'),
+    dict(
+        border=(
+            -256,
+            -256,
+        ),
+        border_val=(
+            114,
+            114,
+            114,
+        ),
+        max_rotate_degree=0.0,
+        max_shear_degree=0.0,
+        max_translate_ratio=0.04591,
+        scaling_ratio_range=(
+            0.5,
+            1.5,
+        ),
+        type='YOLOv5RandomAffine'),
+    dict(
+        pre_transform=[
+            dict(backend_args=None, type='LoadImageFromFile'),
+            dict(type='LoadAnnotations', with_bbox=True),
+            dict(
+                img_scale=(
+                    512,
+                    512,
+                ),
+                pad_val=114.0,
+                pre_transform=[
+                    dict(backend_args=None, type='LoadImageFromFile'),
+                    dict(type='LoadAnnotations', with_bbox=True),
+                ],
+                type='Mosaic'),
+            dict(
+                border=(
+                    -256,
+                    -256,
+                ),
+                border_val=(
+                    114,
+                    114,
+                    114,
+                ),
+                max_rotate_degree=0.0,
+                max_shear_degree=0.0,
+                max_translate_ratio=0.04591,
+                scaling_ratio_range=(
+                    0.5,
+                    1.5,
+                ),
+                type='YOLOv5RandomAffine'),
+        ],
+        prob=0.04266,
+        type='YOLOv5MixUp'),
+]
+without_mosaic_pipeline = [
+    dict(
+        border=(
+            0,
+            0,
+        ),
+        border_val=(
+            114,
+            114,
+            114,
+        ),
+        max_rotate_degree=0.0,
+        max_shear_degree=0.0,
+        max_translate_ratio=0.04591,
+        scaling_ratio_range=(
+            0.5,
+            1.5,
+        ),
+        type='YOLOv5RandomAffine'),
+    dict(
+        allow_scale_up=True,
+        pad_val=dict(img=114),
+        scale=(
+            512,
+            512,
+        ),
+        type='LetterResize'),
+]
+work_dir = '/homes/55/jindong/backdoor/work_dirs/extract/clip_300'
+
+!!!Now, you've changed the prior_match_thr parameter to something other than 4.0. Please make sure that you have modified both the regression formula in bbox_coder and before loss_box computation, otherwise the accuracy may be degraded!!!
+!!!Now, you've changed the prior_match_thr parameter to something other than 4.0. Please make sure that you have modified both the regression formula in bbox_coder and before loss_box computation, otherwise the accuracy may be degraded!!!
+!!!Now, you've changed the prior_match_thr parameter to something other than 4.0. Please make sure that you have modified both the regression formula in bbox_coder and before loss_box computation, otherwise the accuracy may be degraded!!!
+!!!Now, you've changed the prior_match_thr parameter to something other than 4.0. Please make sure that you have modified both the regression formula in bbox_coder and before loss_box computation, otherwise the accuracy may be degraded!!!
+!!!Now, you've changed the prior_match_thr parameter to something other than 4.0. Please make sure that you have modified both the regression formula in bbox_coder and before loss_box computation, otherwise the accuracy may be degraded!!!
+!!!Now, you've changed the prior_match_thr parameter to something other than 4.0. Please make sure that you have modified both the regression formula in bbox_coder and before loss_box computation, otherwise the accuracy may be degraded!!!
+!!!Now, you've changed the prior_match_thr parameter to something other than 4.0. Please make sure that you have modified both the regression formula in bbox_coder and before loss_box computation, otherwise the accuracy may be degraded!!!
+!!!Now, you've changed the prior_match_thr parameter to something other than 4.0. Please make sure that you have modified both the regression formula in bbox_coder and before loss_box computation, otherwise the accuracy may be degraded!!!
+07/28 13:54:18 - mmengine - INFO - Using SyncBatchNorm()
+07/28 13:54:18 - mmengine - INFO - Hooks will be executed in the following order:
+before_run:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(49          ) EMAHook                            
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+after_load_checkpoint:
+(49          ) EMAHook                            
+ -------------------- 
+before_train:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(49          ) EMAHook                            
+(NORMAL      ) IterTimerHook                      
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+before_train_epoch:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+(NORMAL      ) DistSamplerSeedHook                
+ -------------------- 
+before_train_iter:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+after_train_iter:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(49          ) EMAHook                            
+(NORMAL      ) IterTimerHook                      
+(BELOW_NORMAL) LoggerHook                         
+(LOW         ) ParamSchedulerHook                 
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+after_train_epoch:
+(NORMAL      ) IterTimerHook                      
+(LOW         ) ParamSchedulerHook                 
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+before_val:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+before_val_epoch:
+(49          ) EMAHook                            
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+before_val_iter:
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+after_val_iter:
+(NORMAL      ) IterTimerHook                      
+(NORMAL      ) DetVisualizationHook               
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+after_val_epoch:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(49          ) EMAHook                            
+(NORMAL      ) IterTimerHook                      
+(BELOW_NORMAL) LoggerHook                         
+(LOW         ) ParamSchedulerHook                 
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+after_val:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+before_save_checkpoint:
+(49          ) EMAHook                            
+ -------------------- 
+after_train:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(VERY_LOW    ) CheckpointHook                     
+ -------------------- 
+before_test:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+before_test_epoch:
+(49          ) EMAHook                            
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+before_test_iter:
+(NORMAL      ) IterTimerHook                      
+ -------------------- 
+after_test_iter:
+(NORMAL      ) IterTimerHook                      
+(NORMAL      ) DetVisualizationHook               
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+after_test_epoch:
+(VERY_HIGH   ) RuntimeInfoHook                    
+(49          ) EMAHook                            
+(NORMAL      ) IterTimerHook                      
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+after_test:
+(VERY_HIGH   ) RuntimeInfoHook                    
+ -------------------- 
+after_run:
+(BELOW_NORMAL) LoggerHook                         
+ -------------------- 
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/albumentations/core/composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+loading annotations into memory...
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/albumentations/core/composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/albumentations/core/composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/albumentations/core/composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+loading annotations into memory...
+loading annotations into memory...loading annotations into memory...
+
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/albumentations/core/composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/albumentations/core/composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+loading annotations into memory...
+loading annotations into memory...
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/albumentations/core/composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+loading annotations into memory...
+Done (t=0.23s)
+creating index...
+index created!
+Done (t=0.25s)
+creating index...
+Done (t=0.26s)
+creating index...
+Done (t=0.26s)
+creating index...
+Done (t=0.26s)
+creating index...
+Done (t=0.26s)
+creating index...
+Done (t=0.26s)
+creating index...
+index created!
+index created!
+index created!
+index created!
+index created!
+index created!
+loading annotations into memory...
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+loading annotations into memory...
+loading annotations into memory...
+loading annotations into memory...
+loading annotations into memory...
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+Done (t=0.03s)
+creating index...
+Done (t=0.03s)
+creating index...
+Done (t=0.03s)
+creating index...
+index created!
+Done (t=0.03s)
+creating index...
+index created!
+Done (t=0.03s)
+creating index...
+index created!
+index created!
+index created!
+loading annotations into memory...
+loading annotations into memory...
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+loading annotations into memory...
+loading annotations into memory...
+index created!
+loading annotations into memory...
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+Done (t=0.03s)
+creating index...
+Done (t=0.03s)
+creating index...
+index created!
+Done (t=0.03s)
+creating index...
+Done (t=0.03s)
+creating index...
+index created!
+index created!
+Done (t=0.03s)
+creating index...
+index created!
+index created!
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/albumentations/core/composition.py:144: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+loading annotations into memory...
+Done (t=0.21s)
+creating index...
+index created!
+07/28 13:54:20 - mmengine - INFO - Scaled weight_decay to 0.002
+07/28 13:54:20 - mmengine - INFO - Optimizer groups: 60 .bias, 60 conv.weight, 57 other
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.03s)
+creating index...
+index created!
+Loads checkpoint by local backend from path: /homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth
+Loads checkpoint by local backend from path: /homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth
+Loads checkpoint by local backend from path: /homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth
+Loads checkpoint by local backend from path: /homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth
+Loads checkpoint by local backend from path: /homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth
+Loads checkpoint by local backend from path: /homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth
+Loads checkpoint by local backend from path: /homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth
+Loads checkpoint by local backend from path: /homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth
+The model and loaded state dict do not match exactly
+
+size mismatch for bbox_head.head_module.convs_pred.0.weight: copying a param with shape torch.Size([255, 128, 1, 1]) from checkpoint, the shape in current model is torch.Size([75, 128, 1, 1]).
+size mismatch for bbox_head.head_module.convs_pred.0.bias: copying a param with shape torch.Size([255]) from checkpoint, the shape in current model is torch.Size([75]).
+size mismatch for bbox_head.head_module.convs_pred.1.weight: copying a param with shape torch.Size([255, 256, 1, 1]) from checkpoint, the shape in current model is torch.Size([75, 256, 1, 1]).
+size mismatch for bbox_head.head_module.convs_pred.1.bias: copying a param with shape torch.Size([255]) from checkpoint, the shape in current model is torch.Size([75]).
+size mismatch for bbox_head.head_module.convs_pred.2.weight: copying a param with shape torch.Size([255, 512, 1, 1]) from checkpoint, the shape in current model is torch.Size([75, 512, 1, 1]).
+size mismatch for bbox_head.head_module.convs_pred.2.bias: copying a param with shape torch.Size([255]) from checkpoint, the shape in current model is torch.Size([75]).
+The model and loaded state dict do not match exactly
+
+size mismatch for bbox_head.head_module.convs_pred.0.weight: copying a param with shape torch.Size([255, 128, 1, 1]) from checkpoint, the shape in current model is torch.Size([75, 128, 1, 1]).
+size mismatch for bbox_head.head_module.convs_pred.0.bias: copying a param with shape torch.Size([255]) from checkpoint, the shape in current model is torch.Size([75]).
+size mismatch for bbox_head.head_module.convs_pred.1.weight: copying a param with shape torch.Size([255, 256, 1, 1]) from checkpoint, the shape in current model is torch.Size([75, 256, 1, 1]).
+size mismatch for bbox_head.head_module.convs_pred.1.bias: copying a param with shape torch.Size([255]) from checkpoint, the shape in current model is torch.Size([75]).
+size mismatch for bbox_head.head_module.convs_pred.2.weight: copying a param with shape torch.Size([255, 512, 1, 1]) from checkpoint, the shape in current model is torch.Size([75, 512, 1, 1]).
+size mismatch for bbox_head.head_module.convs_pred.2.bias: copying a param with shape torch.Size([255]) from checkpoint, the shape in current model is torch.Size([75]).
+07/28 13:54:23 - mmengine - INFO - Load checkpoint from /homes/55/jindong/backdoor/weights/yolov5_s-v61_syncbn_fast_8xb16-300e_coco_20220918_084700-86e02187.pth
+07/28 13:54:23 - mmengine - WARNING - "FileClient" will be deprecated in future. Please use io functions in https://mmengine.readthedocs.io/en/latest/api/fileio.html#file-io
+07/28 13:54:23 - mmengine - WARNING - "HardDiskBackend" is the alias of "LocalBackend" and the former will be deprecated in future.
+07/28 13:54:23 - mmengine - INFO - Checkpoints will be saved to /homes/55/jindong/backdoor/work_dirs/extract/clip_300.
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+/homes/55/jindong/anaconda3/envs/det/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:2387: UserWarning: torch.distributed._all_gather_base is a private function and will be deprecated. Please use torch.distributed.all_gather_into_tensor instead.
+  warnings.warn(
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
+INFO:torch.nn.parallel.distributed:Reducer buckets have been rebuilt in this iteration.
+07/28 13:54:50 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:54:50 - mmengine - INFO - Epoch(train)  [1][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:13:00  time: 0.8160  data_time: 0.1556  memory: 12747  loss: 32.9723  loss_cls: 8.4221  loss_obj: 7.7554  loss_bbox: 16.7949
+07/28 13:55:10 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:55:10 - mmengine - INFO - Epoch(train)  [2][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:10:57  time: 0.5723  data_time: 0.0630  memory: 12390  loss: 28.2824  loss_cls: 7.0968  loss_obj: 7.7688  loss_bbox: 13.4169
+07/28 13:55:30 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:55:30 - mmengine - INFO - Epoch(train)  [3][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:10:04  time: 0.5469  data_time: 0.0506  memory: 12389  loss: 25.1382  loss_cls: 6.0119  loss_obj: 7.4465  loss_bbox: 11.6798
+07/28 13:55:50 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:55:50 - mmengine - INFO - Epoch(train)  [4][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:09:27  time: 0.5432  data_time: 0.0644  memory: 12389  loss: 23.6587  loss_cls: 5.2860  loss_obj: 7.3840  loss_bbox: 10.9887
+07/28 13:56:10 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:56:10 - mmengine - INFO - Epoch(train)  [5][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:08:58  time: 0.5526  data_time: 0.0356  memory: 12389  loss: 22.4621  loss_cls: 4.7465  loss_obj: 7.4275  loss_bbox: 10.2881
+07/28 13:56:30 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:56:30 - mmengine - INFO - Epoch(train)  [6][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:08:29  time: 0.5390  data_time: 0.0576  memory: 12389  loss: 21.7533  loss_cls: 4.4437  loss_obj: 7.3334  loss_bbox: 9.9762
+07/28 13:56:50 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:56:50 - mmengine - INFO - Epoch(train)  [7][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:08:03  time: 0.5399  data_time: 0.0517  memory: 12389  loss: 21.0270  loss_cls: 4.0815  loss_obj: 7.4144  loss_bbox: 9.5311
+07/28 13:57:10 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:57:10 - mmengine - INFO - Epoch(train)  [8][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:07:40  time: 0.5458  data_time: 0.0844  memory: 12389  loss: 20.3081  loss_cls: 3.7571  loss_obj: 7.3402  loss_bbox: 9.2107
+07/28 13:57:30 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:57:30 - mmengine - INFO - Epoch(train)  [9][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:07:17  time: 0.5442  data_time: 0.0530  memory: 12389  loss: 19.9767  loss_cls: 3.5996  loss_obj: 7.3520  loss_bbox: 9.0251
+07/28 13:57:50 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:57:50 - mmengine - INFO - Epoch(train) [10][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:06:54  time: 0.5409  data_time: 0.0341  memory: 12389  loss: 19.4340  loss_cls: 3.4413  loss_obj: 7.3167  loss_bbox: 8.6760
+07/28 13:58:10 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:58:10 - mmengine - INFO - Epoch(train) [11][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:06:32  time: 0.5450  data_time: 0.0522  memory: 12389  loss: 19.0021  loss_cls: 3.2852  loss_obj: 7.2452  loss_bbox: 8.4717
+07/28 13:58:30 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:58:30 - mmengine - INFO - Epoch(train) [12][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:06:11  time: 0.5473  data_time: 0.0616  memory: 12389  loss: 18.9987  loss_cls: 3.1567  loss_obj: 7.3111  loss_bbox: 8.5309
+07/28 13:58:50 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:58:50 - mmengine - INFO - Epoch(train) [13][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:05:49  time: 0.5458  data_time: 0.0536  memory: 12389  loss: 18.8803  loss_cls: 3.0604  loss_obj: 7.4203  loss_bbox: 8.3996
+07/28 13:59:11 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:59:11 - mmengine - INFO - Epoch(train) [14][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:05:28  time: 0.5497  data_time: 0.0584  memory: 12389  loss: 18.5710  loss_cls: 2.9897  loss_obj: 7.3584  loss_bbox: 8.2229
+07/28 13:59:31 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:59:31 - mmengine - INFO - Epoch(train) [15][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:05:07  time: 0.5505  data_time: 0.0654  memory: 12389  loss: 18.2391  loss_cls: 2.8829  loss_obj: 7.2159  loss_bbox: 8.1403
+07/28 13:59:51 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 13:59:51 - mmengine - INFO - Epoch(train) [16][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:04:46  time: 0.5450  data_time: 0.0752  memory: 12389  loss: 18.0732  loss_cls: 2.8392  loss_obj: 7.2804  loss_bbox: 7.9536
+07/28 14:00:11 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 14:00:11 - mmengine - INFO - Epoch(train) [17][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:04:25  time: 0.5487  data_time: 0.0668  memory: 12389  loss: 18.0152  loss_cls: 2.8618  loss_obj: 7.3825  loss_bbox: 7.7709
+07/28 14:00:31 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 14:00:31 - mmengine - INFO - Epoch(train) [18][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:04:05  time: 0.5474  data_time: 0.0598  memory: 12389  loss: 18.1034  loss_cls: 2.8014  loss_obj: 7.3171  loss_bbox: 7.9848
+07/28 14:00:51 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 14:00:51 - mmengine - INFO - Epoch(train) [19][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:03:44  time: 0.5439  data_time: 0.0338  memory: 12389  loss: 17.8472  loss_cls: 2.7083  loss_obj: 7.2399  loss_bbox: 7.8991
+07/28 14:01:11 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 14:01:11 - mmengine - INFO - Epoch(train) [20][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:03:23  time: 0.5473  data_time: 0.0514  memory: 12389  loss: 17.4454  loss_cls: 2.6776  loss_obj: 7.2092  loss_bbox: 7.5587
+07/28 14:01:31 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 14:01:31 - mmengine - INFO - Epoch(train) [21][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:03:03  time: 0.5488  data_time: 0.0734  memory: 12389  loss: 17.4833  loss_cls: 2.6628  loss_obj: 7.1588  loss_bbox: 7.6617
+07/28 14:01:51 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 14:01:51 - mmengine - INFO - Epoch(train) [22][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:02:42  time: 0.5544  data_time: 0.0591  memory: 12389  loss: 17.2870  loss_cls: 2.5818  loss_obj: 6.9983  loss_bbox: 7.7069
+07/28 14:02:11 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 14:02:11 - mmengine - INFO - Epoch(train) [23][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:02:22  time: 0.5421  data_time: 0.0785  memory: 12389  loss: 17.2290  loss_cls: 2.5367  loss_obj: 7.1036  loss_bbox: 7.5887
+07/28 14:02:31 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 14:02:31 - mmengine - INFO - Epoch(train) [24][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:02:01  time: 0.5418  data_time: 0.0587  memory: 12389  loss: 17.2828  loss_cls: 2.5705  loss_obj: 7.1827  loss_bbox: 7.5296
+07/28 14:02:51 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 14:02:51 - mmengine - INFO - Epoch(train) [25][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:01:41  time: 0.5409  data_time: 0.0574  memory: 12389  loss: 17.0885  loss_cls: 2.5658  loss_obj: 7.1423  loss_bbox: 7.3803
+07/28 14:03:11 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 14:03:11 - mmengine - INFO - Epoch(train) [26][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:01:21  time: 0.5505  data_time: 0.0811  memory: 12389  loss: 16.8063  loss_cls: 2.4436  loss_obj: 7.0642  loss_bbox: 7.2986
+07/28 14:03:31 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 14:03:31 - mmengine - INFO - Epoch(train) [27][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:01:00  time: 0.5552  data_time: 0.0535  memory: 12389  loss: 16.9308  loss_cls: 2.4337  loss_obj: 7.0481  loss_bbox: 7.4491
+07/28 14:03:50 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 14:03:50 - mmengine - INFO - Epoch(train) [28][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:00:40  time: 0.5437  data_time: 0.0637  memory: 12389  loss: 16.6909  loss_cls: 2.3785  loss_obj: 7.0482  loss_bbox: 7.2641
+07/28 14:04:10 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 14:04:10 - mmengine - INFO - Epoch(train) [29][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:00:20  time: 0.5449  data_time: 0.0758  memory: 12389  loss: 16.6281  loss_cls: 2.4045  loss_obj: 7.0215  loss_bbox: 7.2021
+07/28 14:04:30 - mmengine - INFO - Exp name: yolov5_s_clip_300_20250728_135411
+07/28 14:04:30 - mmengine - INFO - Epoch(train) [30][33/33]  base_lr: 2.0000e-02 lr: 2.0000e-02  eta: 0:00:00  time: 0.5463  data_time: 0.0677  memory: 12389  loss: 16.4388  loss_cls: 2.3231  loss_obj: 7.0143  loss_bbox: 7.1014
+07/28 14:04:30 - mmengine - INFO - Saving checkpoint at 30 epochs
+07/28 14:04:32 - mmengine - WARNING - `save_param_scheduler` is True but `self.param_schedulers` is None, so skip saving parameter schedulers
+07/28 14:04:35 - mmengine - INFO - Epoch(val) [30][ 50/619]    eta: 0:00:27  time: 0.0487  data_time: 0.0024  memory: 4507  
+07/28 14:04:35 - mmengine - INFO - Epoch(val) [30][100/619]    eta: 0:00:16  time: 0.0131  data_time: 0.0002  memory: 163  
+07/28 14:04:36 - mmengine - INFO - Epoch(val) [30][150/619]    eta: 0:00:11  time: 0.0139  data_time: 0.0003  memory: 163  
+07/28 14:04:37 - mmengine - INFO - Epoch(val) [30][200/619]    eta: 0:00:09  time: 0.0189  data_time: 0.0003  memory: 4507  
+07/28 14:04:38 - mmengine - INFO - Epoch(val) [30][250/619]    eta: 0:00:08  time: 0.0139  data_time: 0.0003  memory: 164  
+07/28 14:04:39 - mmengine - INFO - Epoch(val) [30][300/619]    eta: 0:00:06  time: 0.0140  data_time: 0.0003  memory: 164  
+07/28 14:04:39 - mmengine - INFO - Epoch(val) [30][350/619]    eta: 0:00:05  time: 0.0141  data_time: 0.0003  memory: 164  
+07/28 14:04:40 - mmengine - INFO - Epoch(val) [30][400/619]    eta: 0:00:04  time: 0.0131  data_time: 0.0002  memory: 164  
+07/28 14:04:40 - mmengine - INFO - Epoch(val) [30][450/619]    eta: 0:00:03  time: 0.0122  data_time: 0.0002  memory: 164  
+07/28 14:04:42 - mmengine - INFO - Epoch(val) [30][500/619]    eta: 0:00:02  time: 0.0243  data_time: 0.0002  memory: 4509  
+07/28 14:04:44 - mmengine - INFO - Epoch(val) [30][550/619]    eta: 0:00:01  time: 0.0469  data_time: 0.0003  memory: 4510  
+07/28 14:04:45 - mmengine - INFO - Epoch(val) [30][600/619]    eta: 0:00:00  time: 0.0172  data_time: 0.0002  memory: 4507  
+07/28 14:04:53 - mmengine - INFO - Evaluating bbox...
+Loading and preparing results...
+DONE (t=1.54s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=23.80s).
+Accumulating evaluation results...
+DONE (t=9.49s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.415
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.717
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.435
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.136
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.313
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.477
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.359
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.566
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.610
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.272
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.539
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.673
+07/28 14:05:30 - mmengine - INFO - bbox_mAP_copypaste: 0.415 0.717 0.435 0.136 0.313 0.477
+07/28 14:05:31 - mmengine - INFO - Epoch(val) [30][619/619]    coco/bbox_mAP: 0.4150  coco/bbox_mAP_50: 0.7170  coco/bbox_mAP_75: 0.4350  coco/bbox_mAP_s: 0.1360  coco/bbox_mAP_m: 0.3130  coco/bbox_mAP_l: 0.4770  data_time: 0.0004  time: 0.0216
+07/28 14:05:33 - mmengine - INFO - The best checkpoint with 0.4150 coco/bbox_mAP at 30 epoch is saved to best_coco_bbox_mAP_epoch_30.pth.

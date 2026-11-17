@@ -1,0 +1,35 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mmdetection/demo/video_demo.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "/scratch/local/ssd2/jindong/backdoor/test_img/1.mp4",
+                "/homes/55/jindong/backdoor/mmdetection/configs/conditional_detr/base.py",
+                "/scratch/local/ssd2/jindong/backdoor/work_dirs/conditional_detr/base_car/epoch_45.pth",
+                "--out","outputs/"
+            ]
+        },
+        {
+            "name": "mmyolo/mmyolo/demo/boxam_vis_demo.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "/homes/55/jindong/backdoor/mmyolo/demo/000212.jpg",
+                "/homes/55/jindong/backdoor/mmyolo/configs/yolov5/voc/yolov5_s-voc.py",
+                "/scratch/local/ssd2/jindong/backdoor/work_dirs/voc0712_loc_sensitive/yolov5/split_half_up/best_pascal_voc_mAP_epoch_23.pth",
+                "--method",
+                "gradcam"
+            ],
+        }
+    ]
+}

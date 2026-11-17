@@ -1,0 +1,17 @@
+*.mp4
+*.avi
+*.mov
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.tar
+*.tar.gz
+*.zip
+*.h5
+.git_bak/
+__pycache__/
+wandb/
+outputs/
+data/
